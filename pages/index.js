@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Navbarr from '../components/Navbarr'
+import Banner from '../components/Banner';
+import Cards from '../components/Cards';
+import Footer from '../components/Footer';
+import MainInfo from '../components/MainInfo';
+import Navbarr from './../components/Navbarr';
+
 
 
 
@@ -14,7 +19,11 @@ export default function Home() {
       </Head>
 
       <main >
-        <Navbarr />
+
+        <Banner />
+        <MainInfo />
+        <Cards />
+        <Footer />
       </main>
     </div>)
 }
