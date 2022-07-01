@@ -28,7 +28,7 @@ const Navbarr = () => {
     }
     const style2 = {
         position: 'fixed',
-        background: "linear-gradient(to right, #d31027, #ea384d)",
+        background: "#484848",
         transition: 'background 0.5s'
     }
     return (
@@ -55,7 +55,7 @@ const Navbarr = () => {
 
                         </Nav>
                         <div className="dropdown">
-                            <button className="dropbtn ag">Dropdown</button>
+                            <span className="ag p-0 ">Dropdown</span>
                             <div className="dropdown-content">
                                 <a href="#">Link 1</a>
                                 <a href="#">Link 2</a>
