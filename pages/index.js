@@ -6,10 +6,21 @@ import Footer from '../components/Footer';
 import MainInfo from '../components/MainInfo';
 import Navbarr from './../components/Navbarr';
 
+import { bets } from '../data/data';
 
 
+export const getStaticProps = async () => {
+  // const bets = (await import("../assets/data/data.json")).default
+  return {
+    props: {
+      casinos: bets,
+    }
+  }
+}
 
-export default function Home() {
+
+export default function Home({ casinos }) {
+  // console.log(casinos)
   return (
     <div >
       <Head>
@@ -22,7 +33,7 @@ export default function Home() {
 
         <Banner />
         <MainInfo />
-        <Cards />
+        <Cards casinos={casinos} />
         <Footer />
       </main>
     </div>)

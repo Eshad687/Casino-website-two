@@ -20,7 +20,7 @@ const Card = (props) => {
                             <div className='d-flex flex-column align-items-start' >
                                 {checklist.map(check =>
                                     <div className="ps-3">
-                                        <small className="d-flex align-items-center"><Checkmark size="small" /><span className="ms-1">{check}</span></small>
+                                        <small className="d-flex align-items-center"><span className="ms-1">{check}</span></small>
                                     </div>
                                 )}
                             </div>
@@ -34,7 +34,7 @@ const Card = (props) => {
                         <div className='col-md-2 d-lg-flex align-items-center'>
                             <div className="d-flex flex-column align-items-center gap-2">
                                 <a href={siteLink} target="_blank" rel="noreferrer" style={{}} className="btn dash-btn text-white">Claim Bonus</a>
-                                {reviewerLink ? <a className='text-decoration-none text' onClick={handleClick} target="_blank" rel="noreferrer" >{casinoName}</a> : ''}
+                                {reviewerLink ? <a className='text-decoration-none text' target="_blank" rel="noreferrer" >{casinoName}</a> : ''}
                             </div>
                         </div>
                     </div>

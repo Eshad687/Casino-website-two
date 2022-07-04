@@ -1,4 +1,4 @@
-[
+export const bets = [
     {
         "id": 1,
         "image": "https://i.ibb.co/X4Ck1y4/Slottica-casino-logo-150x150.jpg",
