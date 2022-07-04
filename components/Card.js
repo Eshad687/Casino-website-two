@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import '../styles/card.module.css';
 
 const Card = (props) => {
@@ -45,15 +44,5 @@ const Card = (props) => {
         </div>
     );
 }
-=======
-
-const Card = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
->>>>>>> 4eb61e2 (ljjl)
 
 export default Card;

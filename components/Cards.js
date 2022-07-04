@@ -1,7 +1,12 @@
 import React from 'react';
 import Card from './Card';
 
-const Cards = () => {
+import Card from './Card';
+
+import bets from '../assets/data/data.json'
+
+const Cards = ({ bets }) => {
+    console.log(bets)
     return (
         <div className='text-center mt-5'>
             <h1>Our Top <span className='underline--magical'>Casinos</span> </h1>
@@ -18,4 +23,10 @@ const Cards = () => {
     );
 };
 
+export const getStaticProps = async () => {
+    const bets = (await import("../assets/data/data.json")).default
+    return {
+        bets: { bets }
+    }
+}
 export default Cards;
