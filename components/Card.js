@@ -18,8 +18,8 @@ const Card = (props) => {
                         <div className='col-md-6 '>
                             <a href={siteLink} className="btn" target="_blank" rel="noreferrer" style={{}}><h5 className="text fw-bold text-start">{title}</h5></a>
                             <div className='d-flex flex-column align-items-start' >
-                                {checklist.map(check =>
-                                    <div className="ps-3">
+                                {checklist.map((check, idx) =>
+                                    <div key={idx} className="ps-3">
                                         <small className="d-flex align-items-center"><span className="ms-1">{check}</span></small>
                                     </div>
                                 )}
