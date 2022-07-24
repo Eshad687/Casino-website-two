@@ -10,14 +10,16 @@
 
 }
 
-.dash-btn {
+.dash {
 
     transition: transform 0.5s;
-    background-color: #08192d;
+    background-color: #484848;
+    width: 120%;
+    height: 70px;
 }
 
-.dash-btn:hover {
-    background-color: #fc0254;
+.dash:hover {
+    background-color: #484848;
 }
 
 .play-now-btn {
@@ -25,7 +27,7 @@
 
     /* right: 20px; */
     background-color: transparent;
-    border: 2px solid #fc0254;
+    border: 2px solid #484848;
     font-weight: bold;
     padding: 2px 5px;
     /* border: 5px solid black; */
@@ -42,7 +44,7 @@
 
 .play-now-btn:hover {
 
-    background-color: #fc0254;
+    background-color: #484848;
 }
 
 .dash-card:hover {
@@ -60,10 +62,10 @@
     padding: 0.4em;
     box-shadow: 0 0 .02rem #fff,
         0 0 .1rem #fff,
-        0 0 1rem #fc0254,
-        0 0 0.4rem #fc0254,
-        0 0 1.8rem #fc0254,
-        inset 0 0 0.3rem #fc0254;
+        0 0 1rem #484848,
+        0 0 0.4rem #484848,
+        0 0 1.8rem #484848,
+        inset 0 0 0.3rem #484848;
 
 }
 
@@ -72,19 +74,19 @@
 }
 
 .text:hover {
-    color: #fc0254
+    color: #484848
 }
 
 .main-card-rank {
     border: 2px solid white;
-    background-color: #fc0254;
+    background-color: #484848;
 
 }
 
 #contain {
     /* height: 100%;
     width: 100%; */
-    border: 5px solid #fc0254;
+    border: 5px solid #484848;
     position: relative;
 }
 
@@ -97,8 +99,8 @@
     /* height: 100%; */
     /* width: 100px; */
     color: white;
-    background-color: #fc0254;
-    border: 2px solid #fc0254;
+    background-color: #484848;
+    border: 2px solid #484848;
     border-radius: 0 0 10px 10px;
     text-align: center;
 }
@@ -128,8 +130,8 @@
     padding: 0.4em;
     box-shadow: 0 0 .02rem #fff,
         0 0 .1rem #fff,
-        0 0 1rem #fc0254,
-        0 0 0.4rem #fc0254,
-        0 0 1.8rem #fc0254,
-        inset 0 0 0.3rem #fc0254;
+        0 0 1rem #484848,
+        0 0 0.4rem #484848,
+        0 0 1.8rem #484848,
+        inset 0 0 0.3rem #484848;
 }
