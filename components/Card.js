@@ -5,10 +5,18 @@ import img1 from '../assets/images/Cards/1.png';
 import img2 from '../assets/images/Cards/2.png';
 import img3 from '../assets/images/Cards/3.png';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const Card = (props) => {
+    const router = useRouter();
     const { title, siteLink, image, rating, review, reviewerLink, checklist, casinoName, speciality, spanish } = props.bet;
     const newRating = ((rating / 10) * 5);
+
+    const handleClick = (e) => {
+        e.preventDefault();
+        // console.log(casinoName);
+        router.push(`/Casinos/${casinoName}`);
+    }
     return (
         <div id={`${speciality && "contain"}`} className='container px-0 styles.dash-card' style={{ display: 'flex', justifyContent: 'center', margin: '20px auto' }}>
 
@@ -85,7 +93,7 @@ const Card = (props) => {
                                     <a href={siteLink} target="_blank" rel="noreferrer" style={{}} className={`${styles.dash} btn text-white d-flex align-items-center justify-content-center`}>JOIN HERE</a>
                                 </div>
                                 <div>
-                                    {reviewerLink ? <a className='text-decoration-none text' target="_blank" rel="noreferrer" >{casinoName}</a> : ''}
+                                    {reviewerLink ? <a className='text-decoration-none text' target="_blank" rel="noreferrer" onClick={handleClick} >{casinoName}</a> : ''}
                                 </div>
                             </div>
                         </div>
