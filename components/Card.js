@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Card.module.css';
+import styles from '../styles/card.module.css';
 import Rating from '@mui/material/Rating';
 import img1 from '../assets/images/Cards/1.png';
 import img2 from '../assets/images/Cards/2.png';

@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="pt-5">
 
             </div>
-            <div className="container py-5">
+            <div className="container pt-5 ">
                 <Row className="">
                     <Col md={6} className=" mt-3 px-5">
                         <Card className=' top-card '>
