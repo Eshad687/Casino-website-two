@@ -23,7 +23,7 @@ function CustomToggle({ children, eventKey }) {
         <div className='card-header' style={{ border: 'none', marginTop: '-8px', marginBottom: '-8px', marginLeft: '-17px', marginRight: '-17px' }}>
             <button
                 type="button"
-                style={{ border: 'none', width: '100%', display: 'flex', fontSize: '12px', margin: '-3px', fontWeight: '600', color: '#80909d' }}
+                style={{ border: 'none', width: '100%', display: 'flex', fontSize: '12px', margin: '2px', fontWeight: '600', color: '#80909d' }}
                 onClick={decoratedOnClick}
             >
                 {children}
@@ -33,7 +33,7 @@ function CustomToggle({ children, eventKey }) {
     );
 }
 
-const Card = (props) => {
+const CardOne = (props) => {
     const [details, setDetails] = useState(false);
     const router = useRouter();
     const { title, screenshot, siteLink, image, rating, review, reviewerLink, checklist, casinoName, speciality, sidebarRating, spanish } = props.bet;
@@ -202,5 +202,5 @@ const Card = (props) => {
 }
 
 
-export default Card;
+export default CardOne;
 
