@@ -1,5 +1,5 @@
 import React from 'react';
-import CardOne from '../components/CardOne';
+import Card from './Card';
 
 
 const Cards = ({ casinos }) => {
@@ -9,7 +9,7 @@ const Cards = ({ casinos }) => {
             <h1>Our Top <span className='underline--magical'>Casinos</span> </h1>
             <div>
                 {
-                    casinos.map(bet => <CardOne
+                    casinos.map(bet => <Card
                         key={bet.id}
                         bet={bet}
                     />)

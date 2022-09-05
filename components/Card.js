@@ -33,7 +33,7 @@ function CustomToggle({ children, eventKey }) {
     );
 }
 
-const CardOne = (props) => {
+const Card = (props) => {
     const [details, setDetails] = useState(false);
     const router = useRouter();
     const { title, screenshot, siteLink, image, rating, review, reviewerLink, checklist, casinoName, speciality, sidebarRating, spanish } = props.bet;
@@ -202,5 +202,5 @@ const CardOne = (props) => {
 }
 
 
-export default CardOne;
+export default Card;
 
