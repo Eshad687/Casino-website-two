@@ -1,15 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/card.module.css';
 import Rating from '@mui/material/Rating';
-import img1 from '../assets/images/Cards/1.png';
-import img2 from '../assets/images/Cards/2.png';
-import img3 from '../assets/images/Cards/3.png';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import Accordion from 'react-bootstrap/Accordion';
+import { useAccordionButton } from 'react-bootstrap/AccordionButton';
+import Card from 'react-bootstrap/Card';
+import Products from './Products';
+import Currencies from './Curriencies';
+import SideRating from './SideRating';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import AddIcon from '@mui/icons-material/Add';
+
+function CustomToggle({ children, eventKey }) {
+    const decoratedOnClick = useAccordionButton(eventKey, () =>
+        console.log('totally custom!'),
+    );
+
+    return (
+
+        <div className='card-header' style={{ border: 'none', marginTop: '-8px', marginBottom: '-8px', marginLeft: '-17px', marginRight: '-17px' }}>
+            <button
+                type="button"
+                style={{ border: 'none', width: '100%', display: 'flex', fontSize: '12px', margin: '-3px', fontWeight: '600', color: '#80909d' }}
+                onClick={decoratedOnClick}
+            >
+                {children}
+            </button>
+        </div>
+
+    );
+}
 
 const Card = (props) => {
+    const [details, setDetails] = useState(false);
     const router = useRouter();
-    const { title, siteLink, image, rating, review, reviewerLink, checklist, casinoName, speciality, spanish } = props.bet;
+    const { title, screenshot, siteLink, image, rating, review, reviewerLink, checklist, casinoName, speciality, sidebarRating, spanish } = props.bet;
     const newRating = ((rating / 10) * 5);
 
     const handleClick = (e) => {
@@ -17,92 +44,163 @@ const Card = (props) => {
         // console.log(casinoName);
         router.push(`/Casinos/${casinoName}`);
     }
+
+    const handleInfo = (e) => {
+        e.preventDefault();
+        setDetails(true);
+    }
+
     return (
-        <div id={`${speciality && "contain"}`} className='container px-0 styles.dash-card' style={{ display: 'flex', justifyContent: 'center', margin: '20px auto' }}>
-
-            {/* {speciality && <div id="label" className='p-1 '>{speciality}</div>} */}
-
-            <div className={`card w-100 ${speciality && "border-1"}`}>
-                <div className="card-body ">
-                    <div className='row'>
-                        <div className='col-md-2'>
-                            <img src={image} className="img-fluid p-1" alt={casinoName} />
+        <div className='container' style={{ backgroundColor: '#fff' }}>
+            <div style={{ margin: '10px', padding: '15px' }}>
+                <div className={styles.header0}>
+                    <div style={{ display: 'flex' }}>
+                        <div className={styles.number}>1</div>
+                        <div className={styles.casinoname}>{casinoName}</div>
+                        {/* THis will be a link to the site */}
+                    </div>
+                    <div style={{ display: 'flex' }}>
+                        <div style={{ paddingTop: '2px', paddingRight: '10px' }}>
+                            <Rating sx={{
+                                '& .MuiRating-iconFilled': {
+                                    color: '#35c193',
+                                    fontSize: '18px',
+                                },
+                                '& .MuiRating-iconEmpty': {
+                                    color: '#35c193',
+                                    fontSize: '18px',
+                                }
+                            }}
+                                name="read-only"
+                                max={5}
+                                value={newRating}
+                                precision={0.5}
+                                readOnly
+                            />
                         </div>
-                        <div className='col-md-3'>
-                            {/* <a href={siteLink} className="btn" target="_blank" rel="noreferrer" style={{}}><h5 className="text fw-bold text-start">{title}</h5></a> */}
-                            <div className='d-flex flex-column align-items-center' >
-                                {
-                                    checklist[0] ?
-                                        <small className="d-flex align-items-center"><span className="ms-1">{checklist[0]}</span></small>
-                                        :
-                                        <></>
-                                }
-                                {
-                                    checklist[1] ?
-                                        <h2 className="d-flex align-items-center"><span className="ms-1">{checklist[1]}</span></h2>
-                                        :
-                                        <></>
-                                }
-                                {
-                                    checklist[2] ?
-                                        <small className="d-flex align-items-center"><span className="ms-1">{checklist[2]}</span></small>
-                                        :
-                                        <></>
-                                }
-                                {/* {checklist.map((check, idx) =>
-                                    <div key={idx} className="ps-3">
-                                        <small className="d-flex align-items-center"><span className="ms-1">{check}</span></small>
+                        <div className={styles.rating}>{newRating}</div>
+                    </div>
+                </div>
+            </div>
+            <div className='container'>
+
+
+                <div className='row' style={{ margin: '0px', marginTop: '-10px' }}>
+                    <div className='col-md-2' style={{}}>
+                        <img src={image} layout='fill' style={{ height: '140px' }} className='img-fluid p-1' />
+                    </div>
+                    <div className={`${styles.header1} col-md-4`} >
+                        <h5 className={styles.bonus}>Bonus</h5>
+                        <h5 className={styles.catchPhrase}>{title}</h5>
+                        <h5 className={styles.voucher}>
+                            <div className={styles.code}>
+                                Voucher code
+                            </div>
+                            <div>
+                                #
+                            </div>
+                        </h5>
+                    </div>
+                    <div className='col-md-3'>
+                        <div className='row'>
+                            <div className={`${styles.header1} col-md-6`} >
+                                <h5 className={styles.bonus}>Products</h5>
+                                <Products />
+                            </div>
+                            <div className={`${styles.header1} col-md-6`} >
+                                <h5 className={styles.bonus}>Currencies</h5>
+                                <Currencies />
+                            </div>
+                        </div>
+                    </div>
+                    <div className={`${styles.header1} col-md-3`} >
+                        <div>
+                            <h5 className={styles.bonus}><CheckBoxIcon style={{ fontSize: '17px', marginRight: '5px' }} />UPDATED 2 HOURS AGO</h5>
+                        </div>
+
+                        {details
+                            ?
+                            <></>
+                            :
+                            <div className={styles.buttonDiv} onClick={handleInfo}>
+                                <a href="#" className={styles.buttonInfo} >
+                                    <div>
+                                        More Info
                                     </div>
-                                )} */}
+                                    <div>
+                                        <AddIcon style={{ fontSize: '18px', fontWeight: '800', marginLeft: '80px' }} />
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                        <div className='col-md-3 d-flex align-items-center justify-content-center'>
-                            <div className="row">
-                                <div className='col-md-5'>
-                                    <Image src={img1} className="img-fluid p-1" alt="bitcoin logo" />
-                                </div>
-                                <div className='col-md-4'>
-                                    <Image src={img2} className="img-fluid p-1" alt="Cascaro Egaming" />
-                                </div>
-                                <div className='col-md-3'>
-                                    <Image src={img3} className="img-fluid p-1" alt="SSL Verified Certificate" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-md-1 d-lg-flex align-items-center'>
-                            <div className='p-2 mb-2 border'>
-                                <h4 className='text-center'>{newRating}</h4>
+                        }
+
+                        <div className={styles.buttonDiv}>
+                            <a href="#" className={styles.buttonOrange} >
+
                                 <div>
-                                    <Rating sx={{
-                                        '& .MuiRating-iconFilled': {
-                                            color: '#ffc107',
-                                        }
-                                    }}
-                                        name="read-only"
-                                        max={5}
-                                        value={newRating}
-                                        precision={0.5}
-                                        readOnly
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-md-3 d-lg-flex align-items-center justify-content-center'>
-                            <div className="d-flex flex-column">
-                                <div>
-                                    <a href={siteLink} target="_blank" rel="noreferrer" style={{}} className={`${styles.dash} btn text-white d-flex align-items-center justify-content-center`}>JOIN HERE</a>
+                                    Visit {casinoName}
                                 </div>
                                 <div>
-                                    {reviewerLink ? <a className='text-decoration-none text' target="_blank" rel="noreferrer" onClick={handleClick} >{casinoName}</a> : ''}
+                                    <ArrowForwardIosIcon style={{ fontSize: '18px', fontWeight: '800', marginRight: '-10px' }} />
+                                    <ArrowForwardIosIcon style={{ fontSize: '18px', fontWeight: '800' }} />
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
 
+
+                {details
+                    ?
+                    <div className='row' style={{ margin: '15px', paddingBottom: '40px' }}>
+                        <div className={`${styles.header1} col-md-3`}>
+                            <div>
+                                <h5 className={styles.bonus}>SCREENSHOT</h5>
+                            </div>
+                            <Image src={screenshot} className={styles.screenshotImg} alt="me" width="550" height="350" />
+                        </div>
+                        <div className='col-md-6' >
+                            <Accordion defaultActiveKey="0">
+                                <Card>
+                                    <Card.Header>
+                                        <CustomToggle eventKey="1">SPORTS BETTING</CustomToggle>
+                                    </Card.Header>
+                                    <Accordion.Collapse className={styles.body0} eventKey="1">
+                                        <Card.Body className={styles.body1}>
+                                            <div>
+                                                TOTAL SPORTS AVAILABLE
+                                            </div>
+                                            <div>
+                                                All the games logos here
+                                            </div>
+                                        </Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                            </Accordion>
+                        </div>
+                        <div className={`${styles.header1} col-md-3`} >
+                            <h5 className={styles.bonus}>RATINGS</h5>
+                            <SideRating sidebarRating={sidebarRating} />
+                            <h5 className={styles.bonus}>OverView</h5>
+                            <h5 className={styles.text}>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                <br />
+                                <br />
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            </h5>
+                            <div>
+                                <a className={`text-decoration-none text ${styles.link}`} target="_blank" rel="noreferrer" onClick={handleClick} >Read Review</a>
+                            </div>
+                        </div>
+                    </div>
+                    :
+                    <></>
+                }
             </div>
-        </div>
+        </div >
     );
 }
 
+
 export default Card;
+
