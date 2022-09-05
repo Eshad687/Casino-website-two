@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Container from 'react-bootstrap/Container';
-
+import Link from 'next/link'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -23,24 +23,30 @@ const Navbarr = () => {
 
     const style1 = {
         position: 'fixed',
-        background: 'transparent',
-        transition: 'background 0.5s'
+        background: "#fff",
+
+        boxShadow: "none",
+        top: "-50",
+        transition: "box-shadow  0.3s ease-in-out"
     }
     const style2 = {
         position: 'fixed',
-        background: "#484848",
-        transition: 'background 0.5s'
+
+        background: "#fff",
+        boxShadow: "5px 5px 5px lightgrey",
+        top: "0",
+        transition: "box-shadow 0.3s ease-in-out"
     }
     return (
         <div>
-            <Navbar style={navbar ? style2 : style1} fixed="top" collapseOnSelect expand="lg" variant="dark">
-                <Container>
+            <Navbar style={navbar ? style2 : style1} fixed="top" collapseOnSelect expand="lg">
+                <Container className="py-2">
                     <Navbar.Brand href="#home">GamblingCo.in</Navbar.Brand>
                     <Navbar.Toggle onClick={() => setNavbar(true)} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link className="ag" href="#features">Features</Nav.Link>
-                            <Nav.Link className="ag" href="#pricing">Pricing</Nav.Link>
+                        <Nav className='ms-auto'>
+                            {/* <Nav.Link className="ag" href="#features">Features</Nav.Link>
+                            <Nav.Link className="ag" href="#pricing">Pricing</Nav.Link> */}
                             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
@@ -53,20 +59,52 @@ const Navbarr = () => {
                                 </NavDropdown.Item>
                             </NavDropdown> */}
 
-                        </Nav>
-                        <div className="dropdown">
-                            <span className="ag p-0 ">Dropdown</span>
-                            <div className="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+
+                            <Link className="ag p-0 m-0" href="/">
+                                <a className='ag mx-2 p-0'>Home</a>
+                            </Link>
+                            <div className="dropdown mx-2">
+                                <span className="ag p-0 ">Crypto Casinos</span>
+                                <div className="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
                             </div>
-                        </div>
-                        <Nav>
-                            <Nav.Link className="ag" href="#deets">More deets</Nav.Link>
-                            <Nav.Link className="ag" eventKey={2} href="#memes">
-                                Dank memes
-                            </Nav.Link>
+                            <div className="dropdown mx-2">
+                                <span className="ag p-0 ">Bitcoin Casinos</span>
+                                <div className="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                            {/* <div className="dropdown mx-2">
+                                <span className="ag p-0 ">Etherium Casinos</span>
+                                <div className="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div> */}
+                            {/* <div className="dropdown mx-2">
+                                <span className="ag p-0 ">Litecoin Casinos</span>
+                                <div className="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div> */}
+                            <div className="dropdown mx-2">
+                                <span className="ag p-0 ">Casino Games</span>
+                                <div className="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
