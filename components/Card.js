@@ -85,7 +85,7 @@ const CardOne = (props) => {
             <div className='container'>
 
 
-                <div className='row' style={{ margin: '0px', marginTop: '-10px', paddingBottom:'25px' }}>
+                <div className='row' style={{ margin: '0px', marginTop: '-10px', paddingBottom: '25px' }}>
                     <div className='col-md-2' style={{}}>
                         <img src={image} layout='fill' style={{ height: '140px' }} className='img-fluid p-1' />
                     </div>
@@ -183,7 +183,7 @@ const CardOne = (props) => {
                             <SideRating sidebarRating={sidebarRating} />
                             <h5 className={styles.bonus}>OverView</h5>
                             <h5 className={styles.text}>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
                                 <br />
                                 <br />
                                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,

@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html,
 body {
-  letter-spacing: 0.15em;
+  /* letter-spacing: 0.15em; */
   padding: 0;
   margin: 0;
-  font-family: -apple-system, 'Roboto', sans-serif;
-  
+  font-family: 'Roboto', sans-serif;
+
 }
 
 /* a {
@@ -184,4 +185,22 @@ body {
 
 .footer-bg {
   background: #35c193;
+}
+
+.read-or-hide {
+  color: #35c193;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.show-more {
+  text-decoration: underline;
+
+}
+
+.show-more:hover {
+  color: #35c193;
+
+  cursor: pointer;
+  transition: "color 0.3s ease-in-out"
 }
