@@ -32,7 +32,7 @@ export default function Home({ casinos }) {
       <main >
 
         <Banner />
-        <MainInfo />
+        {/* <MainInfo /> */}
         <Cards casinos={casinos} />
         <Footer />
       </main>
