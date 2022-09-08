@@ -204,3 +204,181 @@ body {
   cursor: pointer;
   transition: "color 0.3s ease-in-out"
 }
+
+
+.content-item {
+
+  word-break: break-word;
+
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e2327;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  box-sizing: inherit;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(30, 35, 39, .1);
+  background: #fff;
+  padding: 32px;
+  min-height: 480px;
+}
+
+.content-item__flex {
+
+  word-break: break-word;
+
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e2327;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  box-sizing: inherit;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-bottom: 29px;
+  margin-bottom: 24px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #eef1f3;
+}
+
+.content-item__title {
+
+  word-break: break-word;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  box-sizing: inherit;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #2d353c;
+  line-height: 24px;
+}
+
+.content-item__pic {
+
+  word-break: break-word;
+
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e2327;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  box-sizing: inherit;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 20px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-bottom: 0;
+  margin-left: 24px;
+  width: 32px;
+}
+
+.discover-more__items-column-block {
+
+  word-break: break-word;
+
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e2327;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  box-sizing: inherit;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Style the accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #35c193;
+  color: #fff;
+  cursor: pointer;
+  /* padding: 18px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  width: 50%;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover,
+.active {
+  background-color: #288f6d;
+}
+
+/* Style the accordion content title */
+.accordion__title {
+
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+
+  /* background-color: #35c19292; */
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  width: 50%;
+  text-align: left;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 18px;
+  padding-left: 5px;
+  border-left: 4px solid #35c193;
+}
