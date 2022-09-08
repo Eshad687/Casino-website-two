@@ -210,46 +210,26 @@ body {
 
   word-break: break-word;
 
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: left;
-  color: #1e2327;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -webkit-box-direction: normal;
-  box-sizing: inherit;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-column-break-inside: avoid;
-  break-inside: avoid;
+
   border-radius: 12px;
   margin-bottom: 16px;
   border: 1px solid rgba(30, 35, 39, .1);
   background: #fff;
   padding: 32px;
-  min-height: 480px;
+  height: 430px;
 }
 
 .content-item__flex {
 
   word-break: break-word;
 
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: left;
-  color: #1e2327;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -webkit-box-direction: normal;
-  box-sizing: inherit;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
+
   display: flex;
-  -webkit-box-align: center;
+
   align-items: center;
   padding-bottom: 29px;
   margin-bottom: 24px;
-  -webkit-box-pack: justify;
+
   justify-content: space-between;
   border-bottom: 1px solid #eef1f3;
 }
@@ -258,16 +238,11 @@ body {
 
   word-break: break-word;
   text-align: left;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -webkit-box-direction: normal;
-  box-sizing: inherit;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
+
   margin: 0;
 
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 0;
   color: #2d353c;
   line-height: 24px;
@@ -278,15 +253,7 @@ body {
   word-break: break-word;
 
   font-size: 18px;
-  line-height: 1.6;
-  text-align: left;
-  color: #1e2327;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -webkit-box-direction: normal;
-  box-sizing: inherit;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
+
   height: 20px;
   display: flex;
   -webkit-box-align: center;
@@ -303,10 +270,10 @@ body {
 
   word-break: break-word;
 
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   text-align: left;
-  color: #1e2327;
+  color: #405565;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -webkit-box-direction: normal;
