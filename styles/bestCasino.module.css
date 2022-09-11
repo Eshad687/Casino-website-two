@@ -1,0 +1,26 @@
+.headings {
+    color: #2d353c;
+    font-size: 22px;
+    line-height: 32px;
+    max-width: 428px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.text {
+    color: #627380;
+    font-size: 16px;
+    line-height: 22px;
+}
+.line {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bitton{
+    border: 1px solid #e3e3e3;
+    padding: 3px 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.bitton:hover {
+    background-color:#d1eefe;
+}
