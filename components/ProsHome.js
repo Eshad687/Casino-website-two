@@ -10,7 +10,7 @@ const ProsHome = () => {
                     <br />
                     We’re sharing several reasons why they are worth your attention.</p>
             </div>
-            <div className="mx-5 px-5 mb-5">
+            <div className="mx-2 mx-md-5 px-md-5 mb-5">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={6} lg={4}>
                         <div className="content-item">

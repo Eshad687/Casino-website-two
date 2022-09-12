@@ -64,7 +64,7 @@ const Navbarr = () => {
                                 <a className='ag mx-2 p-0'>Home</a>
                             </Link>
                             <div className="dropdown mx-2">
-                                <span className="ag p-0 ">Crypto Casinos</span>
+                                <span className="ag p-0 ">Crypto Casinos <span className="arrow"></span></span>
                                 <div className="dropdown-content">
                                     <a href="#">Link 1</a>
                                     <a href="#">Link 2</a>
@@ -96,12 +96,18 @@ const Navbarr = () => {
                                 </div>
                             </div> */}
                             <div className="dropdown mx-2">
-                                <span className="ag p-0 ">Casino Games</span>
+                                <span className="ag p-0 ">Casino Games </span>
                                 <div className="dropdown-content">
                                     <a href="#">Link 1</a>
                                     <a href="#">Link 2</a>
                                     <a href="#">Link 3</a>
                                 </div>
+                            </div>
+                            <div className="dropdown mt-2 mt-md-0 mx-2 mx-md-5">
+                                <span style={{ backgroundColor: "#35c193", color: "#fff", borderRadius: "5px", cursor: "pointer" }} className=" p-1">EN</span>
+
+                                <span style={{ backgroundColor: "gray", color: "#fff", borderRadius: "5px", cursor: "pointer" }} className=" p-1 ms-2">ES</span>
+
                             </div>
 
 
