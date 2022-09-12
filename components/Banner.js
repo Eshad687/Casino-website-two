@@ -35,7 +35,7 @@ const Banner = () => {
                         </Card>
 
                     </Col>
-                    <Col md={6} className="mt-3" style={{ height: "auto" }}>
+                    <Col md={6} className="mt-3 ps-5 ps-md-0" style={{ height: "auto" }}>
                         <span className="block-helpline__item-title mx-2 mx-md-0 text-white">Best Crypto Sports Betting Sites</span>
                         <span className="block-helpline__item-subHeader mx-2 mx-md-0 text-white">Best Sites - August 2022</span>
 

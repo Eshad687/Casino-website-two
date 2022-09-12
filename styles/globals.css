@@ -95,10 +95,11 @@ body {
   color: #000;
   /* text-transform: uppercase; */
   text-decoration: none !important;
-  letter-spacing: 0.15em;
+  /* letter-spacing: 0.15em; */
   display: inline-block;
   padding: 15px 20px;
   position: relative;
+  font-size: 18px;
 }
 
 .ag::after {
@@ -141,8 +142,8 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 25px;
-  background-color: #35c193;
+  top: 30px;
+  background-color: #fff;
   border-radius: 5px;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -150,15 +151,20 @@ body {
 }
 
 .dropdown-content a {
-  color: #fff;
+  color: #35c193;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  color: #000;
 }
 
+
 .dropdown-content a:hover {
-  background-color: #fff;
+  /* background-color: #35c193; */
   color: #35c193;
+  /* margin: 10px;
+  border-radius: 10px; */
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -216,7 +222,7 @@ body {
   border: 1px solid rgba(30, 35, 39, .1);
   background: #fff;
   padding: 32px;
-  height: 430px;
+  height: 500px;
 }
 
 .content-item__flex {
@@ -348,4 +354,89 @@ body {
   margin: 0 18px;
   padding-left: 5px;
   border-left: 4px solid #35c193;
+}
+
+/* PROS CONS */
+.K2-pros-cons {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  /* max-width: 700px; */
+  margin: 32px auto;
+  box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.4);
+  /* background-color: #fff; */
+}
+
+.K2-pros-cons .heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 16px 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.K2-pros-cons .pros-container .heading {
+  background: #02c39a;
+}
+
+.K2-pros-cons .cons-container .heading {
+  background: #e63946;
+}
+
+.K2-pros-cons .pros-container ul li::before {
+  content: '\2714';
+  /* font-family: "Font Awesome 5 Free"; */
+  font-weight: bold;
+  padding-right: 16px;
+  color: #02c39a;
+  display: block;
+  font-size: 18px;
+}
+
+.K2-pros-cons .cons-container ul li::before {
+  content: "\2718";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  padding-right: 16px;
+  color: #e63946;
+  display: block;
+  font-size: 18px;
+}
+
+.K2-pros-cons .pros-container,
+.K2-pros-cons .cons-container {
+  flex: 1;
+}
+
+.K2-pros-cons .pros {
+  border-right: 1px solid #eee;
+}
+
+.K2-pros-cons ul {
+  padding: 8px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.K2-pros-cons ul li {
+  padding: 16px 32px;
+  color: gray;
+  font-size: 18px;
+  /* line-height: 2; */
+  display: flex;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media (max-width: 530px) {
+  .K2-pros-cons {
+    flex-direction: column;
+  }
+
+  .K2-pros-cons ul li:nth-of-type(2n) {
+    background: #eee;
+  }
 }
