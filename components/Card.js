@@ -159,8 +159,8 @@ const CardOne = (props) => {
                             </div>
                             <Image src={screenshot} className={styles.screenshotImg} alt="me" width="550" height="350" />
                         </div>
-                        <div className='col-md-6' >
-                            <Accordion defaultActiveKey="0">
+                        <div className={`${styles.header1} col-md-6`} style={{alignItems: 'center'}}>
+                            {/* <Accordion defaultActiveKey="0">
                                 <Card>
                                     <Card.Header>
                                         <CustomToggle eventKey="1">SPORTS BETTING</CustomToggle>
@@ -176,12 +176,26 @@ const CardOne = (props) => {
                                         </Card.Body>
                                     </Accordion.Collapse>
                                 </Card>
-                            </Accordion>
+                            </Accordion> */}
+
+                            <div style={{ width: "70%", display:'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                                <h5 className={styles.bonus}>OverView</h5>
+                                <h5 className={styles.text}>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                    <br />
+                                    <br />
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                </h5>
+                                <div>
+                                    <a className={`text-decoration-none text ${styles.link}`} target="_blank" rel="noreferrer" onClick={handleClick} >Read Review</a>
+                                </div>
+                            </div>
+
                         </div>
                         <div className={`${styles.header1} col-md-3`} >
                             <h5 className={styles.bonus}>RATINGS</h5>
                             <SideRating sidebarRating={sidebarRating} />
-                            <h5 className={styles.bonus}>OverView</h5>
+                            {/* <h5 className={styles.bonus}>OverView</h5>
                             <h5 className={styles.text}>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
                                 <br />
@@ -190,7 +204,7 @@ const CardOne = (props) => {
                             </h5>
                             <div>
                                 <a className={`text-decoration-none text ${styles.link}`} target="_blank" rel="noreferrer" onClick={handleClick} >Read Review</a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     :
