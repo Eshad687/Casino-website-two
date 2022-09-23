@@ -534,4 +534,8 @@ body {
   .K2-pros-cons ul li:nth-of-type(2n) {
     background: #eee;
   }
+
+  .ribbon {
+    width: 220px;
+  }
 }
