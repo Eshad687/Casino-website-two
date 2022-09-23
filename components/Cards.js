@@ -5,8 +5,17 @@ import Card from './Card';
 const Cards = ({ casinos }) => {
     // console.log(casinos);
     return (
-        <div className='text-center my-5'>
-            <h3 className="pt-3">Our Top <span className='underline--magical'>Casinos</span> </h3>
+        <div className='text-center my-5 ff '>
+            <div className="pb-5">
+                <div className="ribbon">
+                    Our Top Casinos
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+            </div>
+            {/* <h3 className="pt-3">Our Top <span className='underline--magical'>Casinos</span> </h3> */}
             <div className='mt-3'>
                 {
                     casinos.map(bet => <Card
