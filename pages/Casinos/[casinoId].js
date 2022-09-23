@@ -1,5 +1,6 @@
 import { Card, Chip, Paper, Rating } from '@mui/material';
 import { useRouter } from 'next/router'
+import { Button } from 'react-bootstrap';
 import Footer from '../../components/Footer';
 import Navbarr from '../../components/Navbarr';
 
@@ -34,6 +35,12 @@ function CasinoDetail() {
                 <img style={{ borderRadius: "10px" }} width="100%" src="https://cryptobetting.org/wp-content/uploads/2021/06/stake-review.png" alt="" />
             </div>
             <div>
+                <h3>Basic Overview</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid inventore quam voluptates quod sapiente commodi iste, architecto quasi, voluptatibus facilis culpa deleniti impedit debitis consequatur earum quos iusto labore obcaecati accusamus rem sequi dicta! Repudiandae numquam, quisquam, nesciunt ex doloremque asperiores at ipsum magnam, officia odio et dolorum animi.</p>
+
+
+            </div>
+            <div>
                 <div className="K2-pros-cons">
                     <div className="pros-container">
                         <h2 className="heading">Pros</h2>
@@ -59,6 +66,7 @@ function CasinoDetail() {
                     </div>
                 </div>
             </div>
+            <div className="d-flex justify-content-center"><Button className="wager-btn border-0 w-50">Wager On Stake ➜</Button></div>
         </div>
 
         <Footer />

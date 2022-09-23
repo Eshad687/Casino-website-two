@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html,
+
 body {
   /* letter-spacing: 0.15em; */
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #f5f5f5 !important;
 
 }
 
@@ -19,14 +20,14 @@ body {
 }
 
 .banner {
-  /* background-image: url("https://i.ibb.co/pb9612d/240-F-372005208-ZBq-Xe2-FQd-Fi-Cey-PKy-Kxhyoma5-Ygv-Xinw.webp"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url("https://i.ibb.co/pb9612d/240-F-372005208-ZBq-Xe2-FQd-Fi-Cey-PKy-Kxhyoma5-Ygv-Xinw.webp"), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; */
+  background-position: center;
   /* height: 475px; */
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  /* background-color: rgba(0, 0, 0, .5); */
 }
 
 .best {
@@ -87,6 +88,8 @@ body {
   border-radius: 10px !important;
 }
 
+
+
 .top-button {
   background-color: #35c193 !important;
 }
@@ -142,7 +145,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 30px;
+  /* top: 30px; */
   background-color: #fff;
   border-radius: 5px;
   min-width: 160px;
@@ -430,6 +433,98 @@ body {
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
+.ribbon {
+  width: 400px;
+  height: 60px;
+  margin: 0px auto 0px;
+  position: relative;
+  color: #fff;
+  font: 28px/60px sans-serif;
+  text-align: center;
+  /* text-transform: uppercase; */
+  background: #35c193;
+
+  -webkit-animation: main 250ms;
+  -moz-animation: main 250ms;
+  -ms-animation: main 250ms;
+  animation: main 250ms;
+}
+
+.ribbon i {
+  position: absolute;
+}
+
+.ribbon i:first-child,
+.ribbon i:nth-child(2) {
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  z-index: -1;
+  border: 20px solid transparent;
+  border-right-color: #103d2e;
+
+  -webkit-animation: edge 500ms;
+  -moz-animation: edge 500ms;
+  -ms-animation: edge 500ms;
+  animation: edge 500ms;
+}
+
+.ribbon i:nth-child(2) {
+  left: auto;
+  right: -20px;
+  border-right-color: transparent;
+  border-left-color: #103d2e;
+}
+
+.ribbon i:nth-child(3),
+.ribbon i:last-child {
+  width: 80px;
+  bottom: -20px;
+  left: -60px;
+  z-index: -2;
+  border: 30px solid #35c193;
+  border-left-color: transparent;
+
+  -webkit-animation: back 600ms;
+  -moz-animation: back 600ms;
+  -ms-animation: back 600ms;
+  animation: back 600ms;
+
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+.wager-btn {
+  background-color: #35c193 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: x-large !important;
+
+  padding: 20px !important;
+}
+
+.wager-btn:hover {
+  background-color: #288f6d !important;
+
+}
+
+.ribbon i:last-child {
+  bottom: -20px;
+  left: auto;
+  right: -60px;
+  border: 30px solid #35c193;
+  border-right-color: transparent;
+
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+
 
 @media (max-width: 530px) {
   .K2-pros-cons {
