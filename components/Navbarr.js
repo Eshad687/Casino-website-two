@@ -6,9 +6,32 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styled from "styled-components";
+import styles from '../styles/navbar.module.css';
+import Image from 'next/image';
+
 const Navbarr = () => {
 
-    const [navbar, setNavbar] = useState(false)
+    const [navbar, setNavbar] = useState(false);
+    const [lang, setLang] = useState("uk");
+    const [langList, setLangList] = useState(["spain", "france"]);
+
+
+    const handleLang = (e) =>{
+        console.log(e.target.alt)
+        let array = langList.filter(function(item) {
+            return item !== e.target.alt
+        })
+        console.log(array)
+        console.log(lang)
+        array.push(lang)
+        console.log(array)
+        // setLangList(array.filter(function(item) {
+        //     return item !== e.target.alt
+        // }))
+        setLangList(array);
+        setLang(e.target.alt);
+
+    }
 
     const changeBackground = () => {
         if (window.scrollY >= 80) {
@@ -103,11 +126,39 @@ const Navbarr = () => {
                                     <a href="#">Link 3</a>
                                 </div>
                             </div>
-                            <div className="dropdown mt-2 mt-md-0 mx-2 mx-md-5">
-                                <span style={{ backgroundColor: "#35c193", color: "#fff", borderRadius: "5px", cursor: "pointer" }} className=" p-1">EN</span>
-
-                                <span style={{ backgroundColor: "gray", color: "#fff", borderRadius: "5px", cursor: "pointer" }} className=" p-1 ms-2">ES</span>
-
+                            {/* Language Button */}
+                            <div className="mt-2 mt-md-0 mx-1 mx-md-1">
+                                <div className={styles.dropdown}>
+                                    <button className={styles.dropbtn}>
+                                        <img
+                                            src={`images/svg/${lang}.svg`}
+                                            alt="Language - United Kingdom"
+                                            width={30}
+                                            height={30}
+                                            />
+                                            </button>
+                                    <div className={styles.dropdownContent }>
+                                        {/* <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a> */}
+                                        <div onClick={handleLang}>
+                                            <img
+                                            src={`images/svg/${langList[0]}.svg`}
+                                            alt={langList[0]}
+                                            width={30}
+                                            height={30}
+                                            />
+                                            </div>
+                                        <div onClick={handleLang}>
+                                            <img
+                                            src={`images/svg/${langList[1]}.svg`}
+                                            alt={langList[1]}
+                                            width={30}
+                                            height={30}
+                                            />
+                                            </div>
+                                    </div>
+                                </div>
                             </div>
 
 
