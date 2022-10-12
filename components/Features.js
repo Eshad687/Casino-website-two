@@ -21,7 +21,7 @@ const Features = ({ productsArray }) => {
                     </div>
                     :
                     <div
-                        style={{ display: 'flex', backgroundColor: '#f6f8fa', lineHeight: '1.1', letterSpacing: '0px', fontFamily: 'Roboto, sans-serif', color: 'black', justifyContent: 'start', alignItems: 'center', padding: '3px', borderRadius: '4px', marginTop: '5px', marginBottom: '2px' }}
+                        style={{ display: 'flex', backgroundColor: '#80909d', lineHeight: '1.1', letterSpacing: '0px', fontFamily: 'Roboto, sans-serif', color: 'white', justifyContent: 'start', alignItems: 'center', padding: '3px', borderRadius: '4px', marginTop: '5px', marginBottom: '2px' }}
                     >
                         <div>
                             <CloseIcon style={{ fontSize: '15px', marginRight: '3px' }} />
