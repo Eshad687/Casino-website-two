@@ -17,14 +17,14 @@ const Navbarr = () => {
 
 
     const handleLang = (e) =>{
-        console.log(e.target.alt)
+        // console.log(e.target.alt)
         let array = langList.filter(function(item) {
             return item !== e.target.alt
         })
-        console.log(array)
-        console.log(lang)
+        // console.log(array)
+        // console.log(lang)
         array.push(lang)
-        console.log(array)
+        // console.log(array)
         // setLangList(array.filter(function(item) {
         //     return item !== e.target.alt
         // }))
@@ -131,7 +131,7 @@ const Navbarr = () => {
                                 <div className={styles.dropdown}>
                                     <button className={styles.dropbtn}>
                                         <img
-                                            src={`images/svg/${lang}.svg`}
+                                            src={`images/svg/languages/${lang}.svg`}
                                             alt="Language - United Kingdom"
                                             width={30}
                                             height={30}
@@ -143,7 +143,7 @@ const Navbarr = () => {
                                         <a href="#">Link 3</a> */}
                                         <div onClick={handleLang}>
                                             <img
-                                            src={`images/svg/${langList[0]}.svg`}
+                                            src={`images/svg/languages/${langList[0]}.svg`}
                                             alt={langList[0]}
                                             width={30}
                                             height={30}
@@ -151,7 +151,7 @@ const Navbarr = () => {
                                             </div>
                                         <div onClick={handleLang}>
                                             <img
-                                            src={`images/svg/${langList[1]}.svg`}
+                                            src={`images/svg/languages/${langList[1]}.svg`}
                                             alt={langList[1]}
                                             width={30}
                                             height={30}
