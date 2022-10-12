@@ -1,12 +1,13 @@
 import React from 'react';
+// http://cryptoicons.co/
 
-const Curriencies = () => {
+const Curriencies = ({ taka }) => {
     return (
-        <div style={{display:'flex', flexWrap: 'wrap'}}>
-            <div style={{marginLeft:'-15px'}}>
-                <img src='/Bitcoin.webp' width='50px' height='30px' />
+        <>
+            <div style={{padding:'1px'}}>
+                <img src={taka} width='25px' height='25px' />
             </div>
-            <div style={{marginLeft:'-16px'}}>
+            {/* <div style={{marginLeft:'-16px'}}>
                 <img src='/Ethereum.png' width='40px' height='25px' />
             </div>
             <div style={{marginLeft:'-7px', marginTop:'-3px'}}>
@@ -14,8 +15,8 @@ const Curriencies = () => {
             </div>
             <div style={{marginLeft:'-8px'}}>
                 <img src='/USD.png' width='35px' height='30px' />
-            </div>
-        </div>
+            </div> */}
+        </>
     );
 };
 

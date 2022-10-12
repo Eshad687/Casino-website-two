@@ -1,16 +1,15 @@
 import React from 'react';
 import Rating from '@mui/material/Rating';
 
-const SideRating = ({ sidebarRating }) => {
+const SideRating = ({ singleSidebarRating }) => {
     return (
-        <div style={{width: '100%'}}>
+        <>
 
-             <div className='d-flex justify-content-between' style={{marginTop:'-5px'}}>
-                <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600' }}>Trust Level</p>
-
+            <div className='d-flex justify-content-between' style={{ marginTop: '-5px', marginBottom:'-15px' }}>
+                <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600' }}>{singleSidebarRating[0]}</p>
                 <div className='d-flex'>
                     <Rating sx={{
-                       '& .MuiRating-iconFilled': {
+                        '& .MuiRating-iconFilled': {
                             color: '#35c193',
                             fontSize: '12px',
                         },
@@ -21,16 +20,15 @@ const SideRating = ({ sidebarRating }) => {
                     }}
                         name="read-only"
                         max={5}
-                        value={(sidebarRating.TrustLevel / 10) * 5}
+                        value={(singleSidebarRating[1] / 10) * 5}
                         precision={0.5}
                         readOnly
                     />
-                    <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600', marginTop:'-5px', marginLeft:'3px'  }}>{(sidebarRating.TrustLevel / 10) * 5}</p>
+                    <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600', marginTop: '-5px', marginLeft: '3px' }}>{(singleSidebarRating[1] / 10) * 5}</p>
                 </div>
             </div>
-
-
-             <div className='d-flex justify-content-between' style={{marginTop:'-15px'}}>
+            
+            {/* <div className='d-flex justify-content-between' style={{marginTop:'-15px'}}>
 
                 <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600' }}>Games Selection</p>
 
@@ -56,8 +54,6 @@ const SideRating = ({ sidebarRating }) => {
                 </div>
             </div>
 
-
-
              <div className='d-flex justify-content-between' style={{marginTop:'-15px'}}>
                 <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600' }} >Bonuses</p>
 
@@ -82,7 +78,6 @@ const SideRating = ({ sidebarRating }) => {
                     <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600', marginTop:'-5px', marginLeft:'3px'  }} >{(sidebarRating.Bonuses / 10) * 5}</p>
                 </div>
             </div>
-
 
             <div className='d-flex justify-content-between' style={{marginTop:'-15px'}} >
                 <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600' }} >Performance</p>
@@ -132,7 +127,6 @@ const SideRating = ({ sidebarRating }) => {
                 </div>
             </div>
 
-
             <div className='d-flex justify-content-between' style={{marginTop:'-15px'}}>
                 <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600' }} >Customer Support</p>
 
@@ -155,9 +149,9 @@ const SideRating = ({ sidebarRating }) => {
                     />
                     <p style={{ fontSize: '13px', letterSpacing: '0px', fontWeight: '600', marginTop:'-5px', marginLeft:'3px'  }} >{(sidebarRating.CustomerSupport / 10) * 5}</p>
                 </div>
-            </div>
+            </div> */}
 
-        </div>
+        </>
     );
 };
 
