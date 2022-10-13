@@ -98,7 +98,7 @@ const CardOne = (props) => {
                                 <h5 className={styles.bonus}>Features</h5>
                                 <div>
                                     {products && products.map((e) => (
-                                        <Features id={id} productsArray={e} />
+                                        <Features key={id} productsArray={e} />
                                     ))}
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ const CardOne = (props) => {
                                 <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                                     {
                                         currencies && currencies.map((e) => (
-                                            <Currencies id={id} taka={e} />
+                                            <Currencies key={id} taka={e} />
                                         ))
                                     }
                                 </div>
@@ -172,7 +172,7 @@ const CardOne = (props) => {
                             <div style={{ width: '100%' }}>
                                 {
                                     sidebarRating && sidebarRating.map((e) => (
-                                        <SideRating id={id} singleSidebarRating={e} />
+                                        <SideRating key={id} singleSidebarRating={e} />
                                     ))
                                 }
                             </div>
