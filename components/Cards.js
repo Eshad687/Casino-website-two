@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from './Card';
 
 
 const Cards = ({ casinos }) => {
     // console.log(casinos);
+    const [limitedCasinos, setLimitedCasinos] = useState(casinos.slice(0, 6));
+    const [num, setNum] = useState(6);
+    const [flag, setFlag] = useState(true);
+    const handleCasinos = () => {
+        if(num<=11){
+            setNum(num+2);
+        }
+    };
+    useEffect(() => {
+        if(num>11){
+            setFlag(false);
+        }
+        setLimitedCasinos(casinos.slice(0, num));
+    },[num])
+
     return (
         <div className='text-center my-5 ff '>
             <div className="pb-5">
@@ -15,17 +30,22 @@ const Cards = ({ casinos }) => {
                     <i></i>
                 </div>
             </div>
-            {/* <h3 className="pt-3">Our Top <span className='underline--magical'>Casinos</span> </h3> */}
             <div className='mt-3'>
                 {
-                    casinos.map(bet => <Card
+                    limitedCasinos && limitedCasinos.map(bet => <Card
                         key={bet.id}
                         bet={bet}
                     />)
                 }
             </div>
             <div>
-                <h6 className='show-more mt-5 '>Show More Casinos</h6>
+                {
+                    flag?
+                    <h6 className='show-more mt-5' onClick={handleCasinos}>Show More Casinos</h6>
+                    :
+                    <></>
+                }
+                
             </div>
         </div>
     );
