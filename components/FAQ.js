@@ -8,35 +8,40 @@ const FAQ = () => {
 
             <div className="py-3">
                 <Accordion title="Are Bitcoin Betting Sites legal?"
-                    content="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    content="<p>BTC sports betting sites are legal most of the time; however, the exact answer depends on your country of residence.</p>
          
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>It isn’t clear-cut because it depends on Bitcoins and sports betting site law in each jurisdiction.</p>
                 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+                <p>Although crypto is legal or tolerated in most countries, regulators are generally more severe with sports betting sites.</p>
+                
+                <p>Yet, there are good Bitcoin betting sites that let you register even if it isn’t legal in your country.</p>
+
+                <p>If you have a VPN, your transactions are out of the glare of a centralized authority, which means regulators have their work cut out.</p>
+                "
                 />
                 <Accordion
                     title="Can I Bet completely anonymously with Bitcoins?"
-                    content="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    content="<p>Yes, you can because of how crypto addresses work. These are created privately by your wallet, and there is no other information that outlines where your cryptos are stored or any location you send them to.</p>
          
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>As a result, you can maintain secrecy by using a new address every time you receive payment. Another tactic is to use several wallets, each one for a different reason.</p>
                     
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+                    "
                 />
                 <Accordion
                     title="How long do Crypto deposits take?"
-                    content="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    content="<p>It varies from a couple of minutes to an hour, depending on several factors, including the crypto network.</p>
          
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>There are numerous Blockchains involved in the transaction confirmation process, and they occasionally become overwhelmed.</p>
           
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          <p>You must pay an extra fee if you want to avoid having your transaction delayed by the Blockchain queue.</p>"
                 />
                 <Accordion
                     title="How long do Crypto withdrawals take?"
-                    content="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    content="<p>The withdrawal process goes through the same procedure as when you deposit. However, the majority of crypto sports betting sites also have to authenticate the action manually.</p>
          
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>The time it takes varies depending on the Bitcoin betting site. Some sites go through a long validation process which takes days. Others don’t complete this step and ensure your withdrawal happens as quickly as a deposit.</p>
           
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+        "
                 />
                 {/* <Accordion
                     title="What coins can I use for betting and gambling online?"

@@ -501,13 +501,27 @@ body {
   background-color: #35c193 !important;
   color: #fff !important;
   font-weight: bold !important;
-  font-size: x-large !important;
+  font-size: large !important;
 
-  padding: 20px !important;
+  padding: 10px !important;
+}
+
+.wager-btn2 {
+  background-color: #f64c72 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: large !important;
+
+  padding: 10px !important;
 }
 
 .wager-btn:hover {
   background-color: #288f6d !important;
+
+}
+
+.wager-btn2:hover {
+  background-color: #ad334d !important;
 
 }
 
@@ -524,7 +538,28 @@ body {
   transform-origin: 0 0;
 }
 
+.check-ul {
+  list-style: none;
+  padding-left: 0;
+}
 
+.check-ul li {
+  margin-bottom: 20px;
+}
+
+.check-ul li:before {
+  content: '\2714\0020';
+  margin-right: 10px;
+}
+
+.que {
+  color: #35c193
+}
+
+.rev {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
 
 @media (max-width: 530px) {
   .K2-pros-cons {
@@ -537,5 +572,13 @@ body {
 
   .ribbon {
     width: 220px;
+  }
+
+  .accordion {
+    width: 90%
+  }
+
+  .accordion__content {
+    width: 90%
   }
 }

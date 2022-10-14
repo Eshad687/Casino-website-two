@@ -42,7 +42,7 @@ export default function Home({ casinos }) {
         <FindBestCasino />
         <NeedToKnow />
         <FAQ />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>)
 }

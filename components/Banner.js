@@ -12,7 +12,7 @@ const Banner = () => {
     }
     return (
         <div className='banner'>
-            <Navbarr />
+
             <div className="pt-5">
 
             </div>
@@ -36,11 +36,27 @@ const Banner = () => {
 
                     </Col>
                     <Col md={6} className="mt-3 ps-5 ps-md-0" style={{ height: "auto" }}>
-                        <span className="block-helpline__item-title mx-2 mx-md-0 text-white">Best Crypto Sports Betting Sites</span>
+                        <span className="block-helpline__item-title mx-2 mx-md-0 text-white">Best Crypto Betting Sites</span>
                         <span className="block-helpline__item-subHeader mx-2 mx-md-0 text-white">Best Sites - August 2022</span>
 
                         <span className="block-helpline__item-details my-4 mx-2 mx-md-0 w-75 text-white">
-                            {isReadMore ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quam excepturi quasi consequuntur sed " : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quam excepturi quasi consequuntur sed voluptas vero voluptate corrupti dolorem, magnam deserunt quae quisquam odio doloribus earum voluptatum deleniti voluptates delectus.Lorem ipsum dolor sit amet consectetur, adipisicing elit."}
+                            {isReadMore ? <p>This guide features the best crypto betting sites in 2022.All of these trustworthy sites make it possible to deposit, withdraw, and bet with Bitcoin easily.</p> : <>
+                                <p>This guide features the best crypto betting sites in 2022.All of these trustworthy sites make it possible to deposit, withdraw, and bet with Bitcoin easily.</p>
+                                <ul className="check-ul">
+                                    <li>
+                                        The advantages of choosing them
+                                    </li>
+                                    <li>
+                                        How to find the best ones around
+                                    </li>
+                                    <li>
+                                        The top-rated exchange to use on BTC betting sites in 2022
+                                    </li>
+                                </ul>
+
+                                <p>Let’s dive in.</p>
+                            </>
+                            }
                             <div onClick={toggleReadMore} className="read-or-hide">
                                 {isReadMore ? "Read more" : " Show less"}
                             </div>
