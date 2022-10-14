@@ -130,31 +130,28 @@ const Navbarr = () => {
                             <div className="mt-2 mt-md-0 mx-1 mx-md-1">
                                 <div className={styles.dropdown}>
                                     <button className={styles.dropbtn}>
-                                        <img
-                                            src={`images/svg/languages/${lang}.svg`}
+                                        <Image
+                                            src={`/images/svg/languages/${lang}.svg`}
                                             alt="Language - United Kingdom"
                                             width={30}
                                             height={30}
                                             />
                                             </button>
                                     <div className={styles.dropdownContent }>
-                                        {/* <a href="#">Link 1</a>
-                                        <a href="#">Link 2</a>
-                                        <a href="#">Link 3</a> */}
                                         <div onClick={handleLang}>
-                                            <img
-                                            src={`images/svg/languages/${langList[0]}.svg`}
+                                            <Image
+                                            src={`/images/svg/languages/${langList[0]}.svg`}
                                             alt={langList[0]}
-                                            width={30}
-                                            height={30}
+                                            width={50}
+                                            height={50}
                                             />
                                             </div>
                                         <div onClick={handleLang}>
-                                            <img
-                                            src={`images/svg/languages/${langList[1]}.svg`}
+                                            <Image
+                                            src={`/images/svg/languages/${langList[1]}.svg`}
                                             alt={langList[1]}
-                                            width={30}
-                                            height={30}
+                                            width={50}
+                                            height={50}
                                             />
                                             </div>
                                     </div>
