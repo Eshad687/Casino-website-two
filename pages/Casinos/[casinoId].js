@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { bets } from '../../data/data';
 import parse from 'html-react-parser';
+import Image from 'next/image';
+import styles from '../../styles/review.module.css';
 
 
 function CasinoDetail() {
@@ -39,7 +41,6 @@ function CasinoDetail() {
                                         <img style={{ borderRadius: "10px" }} width="100px" height="100px" src={bet && bet.imageURL} alt="" />
                                         <div className='ms-3'>
                                             <div className="fs-2 fw-bold">{bet && bet.casinoName}</div>
-
                                             <Chip sx={{ backgroundColor: "#35c193" }} className="fw-bold fs-6 my-2 text-white" label={`# ${bet && bet.id}`} />
                                         </div>
 
@@ -47,6 +48,74 @@ function CasinoDetail() {
                                     <div>
                                         <Rating sx={{ color: "#35c193" }} size='xl' name="read-only" value={bet ? ((bet.rating / 10) * 5) : 0} readOnly />
                                         <h1 className="fw-bold">{bet && ((bet.rating / 10) * 5)}</h1>
+                                    </div>
+                                </div>
+                                <div className={`row pt-4 ${styles.featuresSection}`}>
+                                    <div className="col-md-6 d-flex ps-5 py-3">
+                                        <div className={`d-flex`}>
+                                            <div className="pe-3">
+                                                <Image src="/images/svg/reviewCardIcons/deposit.svg" height={30} width={30} alt="Deposit Bonus" />
+                                            </div>
+                                            <div>
+                                                <h6 style={{fontWeight:'800'}}>Deposit Bonus</h6>
+                                                <h6 className={styles.features}>{bet && bet.cardFeatures[0]}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 d-flex ps-5 py-3">
+                                        <div className={`d-flex`}>
+                                            <div className="pe-3">
+                                                <Image src="/images/svg/reviewCardIcons/spin.svg" height={30} width={30} alt="Deposit Bonus" />
+                                            </div>
+                                            <div>
+                                                <h6 style={{fontWeight:'800'}}>Free Spins</h6>
+                                                <h6 className={styles.features}>{bet && bet.cardFeatures[1]}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 d-flex ps-5 py-3">
+                                        <div className={`d-flex`}>
+                                            <div className="pe-3">
+                                                <Image src="/images/svg/reviewCardIcons/games.svg" height={30} width={30} alt="Deposit Bonus" />
+                                            </div>
+                                            <div>
+                                                <h6 style={{fontWeight:'800'}}>Games</h6>
+                                                <h6 className={styles.features}>{bet && bet.cardFeatures[2]}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 d-flex ps-5 py-3">
+                                        <div className={`d-flex`}>
+                                            <div className="pe-3">
+                                                <Image src="/images/svg/reviewCardIcons/vip.svg" height={30} width={30} alt="Deposit Bonus" />
+                                            </div>
+                                            <div>
+                                                <h6 style={{fontWeight:'800'}}>VIP Club</h6>
+                                                <h6 className={styles.features}>{bet && bet.cardFeatures[3]}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 d-flex ps-5 py-3">
+                                        <div className={`d-flex`}>
+                                            <div className="pe-3">
+                                                <Image src="/images/svg/reviewCardIcons/sports.svg" height={30} width={30} alt="Deposit Bonus" />
+                                            </div>
+                                            <div>
+                                                <h6 style={{fontWeight:'800'}}>Sports Betting</h6>
+                                                <h6 className={styles.features}>{bet && bet.cardFeatures[4]}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 d-flex ps-5 py-3">
+                                        <div className={`d-flex`}>
+                                            <div className="pe-3">
+                                                <Image src="/images/svg/reviewCardIcons/unique.svg" height={30} width={30} alt="Deposit Bonus" />
+                                            </div>
+                                            <div>
+                                                <h6 style={{fontWeight:'800'}}>Unique Feature</h6>
+                                                <h6 className={styles.features}>{bet && bet.cardFeatures[5]}</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </Paper>
@@ -61,7 +130,7 @@ function CasinoDetail() {
                                 parse(bet.reviewContent)
                                 :
                                 ""
-                             }
+                            }
                         </Box>
                     </Grid>
 
