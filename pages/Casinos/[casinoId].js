@@ -12,8 +12,7 @@ function CasinoDetail() {
     const casinoID = router.query.casinoId
     // const oneCasinoReview = bets.find(b => b.name.toString() == casinoID);
     const [bet, setBet] = useState(bets.find(b => b.name.toString() == casinoID))
-    const {casinoName, rating} = bet;
-    console.log(bet)
+    
 
     useEffect(() => {
         window.scrollTo({
@@ -36,7 +35,7 @@ function CasinoDetail() {
                             <div className='d-flex'>
                                 <img style={{ borderRadius: "10px" }} width="100px" height="100px" src="https://cryptobetting.org/wp-content/uploads/2021/06/stake-logo-1_crypto-sports-betting-site.png" alt="" />
                                 <div className='ms-3'>
-                                    <div className="fs-2 fw-bold">{casinoName}</div>
+                                    <div className="fs-2 fw-bold">{bet && bet.casinoName}</div>
 
                                     <Chip sx={{ backgroundColor: "#35c193" }} className="fw-bold fs-6 my-2 text-white" label="# 1" />
                                 </div>
@@ -63,8 +62,8 @@ function CasinoDetail() {
                             </div>
                         </div> */}
                             <div>
-                                <Rating sx={{ color: "#35c193" }} size='xl' name="read-only" value={(rating/10)*5} readOnly />
-                                <h1 className="fw-bold">{(rating/10)*5}</h1>
+                                <Rating sx={{ color: "#35c193" }} size='xl' name="read-only" value={bet && (bet.rating/10)*5} readOnly />
+                                <h1 className="fw-bold">{bet && (bet.rating/10)*5}</h1>
                             </div>
                         </div>
                     </Paper>
@@ -157,13 +156,13 @@ function CasinoDetail() {
                         <Card >
                             <CardContent>
 
-                                <h3 className='text-center' style={{ color: "#35c193" }}> Why should you play at {casinoName}?</h3>
+                                <h3 className='text-center' style={{ color: "#35c193" }}> Why should you play at {bet && bet.casinoName}?</h3>
 
                                 <p className='text-center'>
                                     JustBit casino offers a variety of top-class services. First of all, you will come across a game lobby consisting of more than 1000 titles. There are several promotional offers and the VIP club is waiting for you if you become a loyal member of this crypto gambling website. Deposit with Bitcoin and other popular cryptos and make the best out of your gambling experience.
                                 </p>
 
-                                <div className="d-flex justify-content-center"><Button className="wager-btn border-0">Wager On {casinoName} ➜</Button></div>
+                                <div className="d-flex justify-content-center"><Button className="wager-btn border-0">Wager On {bet && bet.casinoName} ➜</Button></div>
                             </CardContent>
                         </Card>
                     </div>
