@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, Chip, Grid, Paper, Rating } from '@mui/material';
 import { useRouter } from 'next/router'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Curriencies from '../../components/Curriencies';
 import Features from '../../components/Features';
@@ -10,8 +10,10 @@ import { bets } from '../../data/data';
 function CasinoDetail() {
     const router = useRouter()
     const casinoID = router.query.casinoId
-    const oneCasinoReview = bets.filter(b => b.name.toString() == casinoID);
-    const {casinoName, rating} =oneCasinoReview[0];
+    // const oneCasinoReview = bets.find(b => b.name.toString() == casinoID);
+    const [bet, setBet] = useState(bets.find(b => b.name.toString() == casinoID))
+    const {casinoName, rating} = bet;
+    console.log(bet)
 
     useEffect(() => {
         window.scrollTo({
