@@ -1,31 +1,24 @@
 import { Card, CardContent, CardHeader, Chip, Grid, Paper, Rating } from '@mui/material';
 import { useRouter } from 'next/router'
+import { useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import Curriencies from '../../components/Curriencies';
 import Features from '../../components/Features';
-import Footer from '../../components/Footer';
-import Navbarr from '../../components/Navbarr';
 import { bets } from '../../data/data';
-export const getStaticProps = async ({ params }) => {
-    const betss = bets.filter(b => b.casinoName.toString() == params.casinoId)
-    return {
-        props: {
-            casino: betss[0],
-        }
-    }
-}
 
-export const getStaticPaths = async () => {
-    // const bets = (await import("../assets/data/data.json")).default
-    const paths = bets.map(bet => ({
-        params: { casinoId: bet.casinoName.toString() }
-    }))
-    return { paths, fallback: false }
-}
-function CasinoDetail({ casino }) {
-    console.log(casino)
+
+function CasinoDetail() {
     const router = useRouter()
     const casinoID = router.query.casinoId
+    const oneCasinoReview = bets.filter(b => b.name.toString() == casinoID);
+    const {casinoName, rating} =oneCasinoReview[0];
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant'
+          });
+    }, []);
 
     return <div  >
 
@@ -41,7 +34,7 @@ function CasinoDetail({ casino }) {
                             <div className='d-flex'>
                                 <img style={{ borderRadius: "10px" }} width="100px" height="100px" src="https://cryptobetting.org/wp-content/uploads/2021/06/stake-logo-1_crypto-sports-betting-site.png" alt="" />
                                 <div className='ms-3'>
-                                    <div className="fs-2 fw-bold">Stake</div>
+                                    <div className="fs-2 fw-bold">{casinoName}</div>
 
                                     <Chip sx={{ backgroundColor: "#35c193" }} className="fw-bold fs-6 my-2 text-white" label="# 1" />
                                 </div>
@@ -68,8 +61,8 @@ function CasinoDetail({ casino }) {
                             </div>
                         </div> */}
                             <div>
-                                <Rating sx={{ color: "#35c193" }} size='xl' name="read-only" value={4} readOnly />
-                                <h1 className="fw-bold">4.2</h1>
+                                <Rating sx={{ color: "#35c193" }} size='xl' name="read-only" value={(rating/10)*5} readOnly />
+                                <h1 className="fw-bold">{(rating/10)*5}</h1>
                             </div>
                         </div>
                     </Paper>
@@ -121,7 +114,7 @@ function CasinoDetail({ casino }) {
                         <p>
                             There is a limit when you deposit funds with cryptocurrencies since you need to provide at least 0.0005 BTC in order to start gambling here. The same amount applies to other cryptos as well, so the picture looks like this – 0.0005 BTC, 0.1 LTC, 0.006 ETH, 1 NEO, 10 ADA, 0.04 BCH, 100 DOGE, 0.05 BNB, 300 TRX, 0.2 BSV, and 20 XRP. Given the fact that nowadays the value of every crypto has fallen significantly, this is an excellent opportunity for every punter!
                         </p>
-                        <img className="my-2" style={{ borderRadius: "10px" }} width="100%" src="https://justbit.io/?stag=11305_6349077b3e07630490794580" alt="" />
+                        <img className="my-2" style={{ borderRadius: "10px" }} width="100%" src="https://justbit.io/" alt="" />
 
                         <p>
                             As for the maximum deposit, there is no limit in this case. You have the possibility to deposit as much as you wish! This is one more great piece of news for several punters who enjoy gambling with high stakes but keep in mind that it is connected with considerable risks as well.
@@ -162,13 +155,13 @@ function CasinoDetail({ casino }) {
                         <Card >
                             <CardContent>
 
-                                <h3 className='text-center' style={{ color: "#35c193" }}> Why should you play at JustBit?</h3>
+                                <h3 className='text-center' style={{ color: "#35c193" }}> Why should you play at {casinoName}?</h3>
 
                                 <p className='text-center'>
                                     JustBit casino offers a variety of top-class services. First of all, you will come across a game lobby consisting of more than 1000 titles. There are several promotional offers and the VIP club is waiting for you if you become a loyal member of this crypto gambling website. Deposit with Bitcoin and other popular cryptos and make the best out of your gambling experience.
                                 </p>
 
-                                <div className="d-flex justify-content-center"><Button className="wager-btn border-0">Wager On Stake ➜</Button></div>
+                                <div className="d-flex justify-content-center"><Button className="wager-btn border-0">Wager On {casinoName} ➜</Button></div>
                             </CardContent>
                         </Card>
                     </div>
