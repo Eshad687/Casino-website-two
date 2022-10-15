@@ -11,6 +11,7 @@ import ProsHome from '../components/ProsHome';
 import FindBestCasino from '../components/FindBestCasino';
 import NeedToKnow from '../components/NeedToKnow';
 import FAQ from '../components/FAQ';
+import { useEffect } from 'react';
 
 
 export const getStaticProps = async () => {
@@ -25,6 +26,12 @@ export const getStaticProps = async () => {
 
 export default function Home({ casinos }) {
   // console.log(casinos)
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'instant'
+    });
+  }, []);
   return (
     <div >
       <Head>

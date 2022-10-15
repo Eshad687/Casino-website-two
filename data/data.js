@@ -60,7 +60,7 @@ export const bets = [
         "currencies": ['/images/svg/currencies/btc.svg','/images/svg/currencies/eth.svg', '/images/svg/currencies/doge.svg', '/images/svg/currencies/bch.svg', '/images/svg/currencies/usdt.svg', '/images/svg/currencies/trx.svg'],
         "screenshot":"/images/casinos/bcGame/bcImg.webp",
         "overView":"BC.Game is an online sports betting site which offers lots of Lotteries, Jackpot, Limbo, Plinko, Mines, Crash, Dice, Scratchcards, Craps, Slots, Roulette, Keno, Bingo, Baccarat, Blackjack, Live Dealer, Video Poker options to enjoy. This site will provide you with hours of fun no matter where you are: it offers 56 sports, 5500 casino games, and 14 different support languages, so get started today!",
-        "name": "bcgame",
+        "name": "BC.Game",
         "siteLink": "https://50slottica.com/",
         "sidebarRating": [
             ["Reputation", 9.9],
@@ -184,7 +184,7 @@ export const bets = [
         "currencies": ['/images/svg/currencies/btc.svg','/images/svg/currencies/eth.svg','/images/svg/currencies/ltc.svg', '/images/svg/currencies/doge.svg', '/images/svg/currencies/bch.svg'],
         "screenshot":"/images/casinos/baocasino/baoImg.png",
         "overView":"BAO casino is an Australian online casino that has excellent quality casino games from the world’s leading software providers. Take part in 1500+ casino games on just one single platform, get a 100% bonus of up to 200 EUR or 2 BTC and double your winnings on BAO crypto casino!",
-        "name": "BAO Casino",
+        "name": "BAO",
         "siteLink": "https://50slottica.com/",
         "sidebarRating": [
             ["Reputation", 10],
@@ -209,7 +209,7 @@ export const bets = [
         "currencies": ['/images/svg/currencies/btc.svg','/images/svg/currencies/eth.svg','/images/svg/currencies/ltc.svg', '/images/svg/currencies/doge.svg', '/images/svg/currencies/bch.svg'],
         "screenshot":"/images/casinos/7Bit/7bitImg.png",
         "overView":"7Bit is one of the, if not the most famous Bitcoin casino that has options for nearly every type of casino game. With a minimum deposit of only 0.0005 BTC, this casino is a gateway for new players as well as a comfortable switching opportunity for veterans. Players can enjoy 700 casino games and get a 100%bonus up to 500 EUR or 5 BTC.",
-        "name": "BAO Casino",
+        "name": "7Bit",
         "siteLink": "https://50slottica.com/",
         "sidebarRating": [
             ["Reputation", 10],
@@ -234,7 +234,7 @@ export const bets = [
         "currencies": ['/images/svg/currencies/btc.svg','/images/svg/currencies/eth.svg','/images/svg/currencies/ltc.svg', '/images/svg/currencies/bch.svg', '/images/svg/currencies/xrp.svg', '/images/svg/currencies/usdt.svg', '/images/svg/currencies/trx.svg'],
         "screenshot":"/images/casinos/xbet/xbetImg.png",
         "overView":"7Bit is one of the, if not the most famous Bitcoin casino that has options for nearly every type of casino game. With a minimum deposit of only 0.0005 BTC, this casino is a gateway for new players as well as a comfortable switching opportunity for veterans. Players can enjoy 700 casino games and get a 100%bonus up to 500 EUR or 5 BTC.",
-        "name": "BAO Casino",
+        "name": "PlanetaXBet",
         "siteLink": "https://50slottica.com/",
         "sidebarRating": [
             ["Reputation", 10],
@@ -259,7 +259,7 @@ export const bets = [
         "currencies": ['/images/svg/currencies/btc.svg','/images/svg/currencies/eth.svg','/images/svg/currencies/ltc.svg', '/images/svg/currencies/doge.svg', '/images/svg/currencies/bch.svg', '/images/svg/currencies/xrp.svg', '/images/svg/currencies/usdt.svg', '/images/svg/currencies/ada.svg', '/images/svg/currencies/neo.svg'],
         "screenshot":"/images/casinos/trueflip/trueflipImg.png",
         "overView":"TrueFlip showers players with gifts. Everybody is eligible for 1 BTC + 150 free spins as a present upon registration. With 2000+ games to play alongside 30 other types of bonuses, TrueFlip is the most generous casino you can play on! TrueFlip offers chances to pay with a special TrueFlip coin. Players can also take advantage of the unique TrueLab games on this casino.",
-        "name": "TrueFlip Casino",
+        "name": "TrueFlip",
         "siteLink": "https://50slottica.com/",
         "sidebarRating": [
             ["Reputation", 10],

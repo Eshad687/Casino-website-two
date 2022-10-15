@@ -38,12 +38,12 @@ function CustomToggle({ children, eventKey }) {
 const CardOne = (props) => {
     const [details, setDetails] = useState(false);
     const router = useRouter();
-    const { id, bonusTitle, screenshot, imageURL, products, rating, currencies, overView, siteLink, casinoName, bigImageURL, sidebarRating, basicOverview } = props.bet;
+    const { id, bonusTitle, screenshot, imageURL, products, rating, currencies, overView, name, siteLink, casinoName, bigImageURL, sidebarRating, basicOverview } = props.bet;
     const newRating = ((rating / 10) * 5);
     // console.log(sidebarRating)
     const handleClick = (e) => {
         e.preventDefault();
-        router.push(`/Casinos/${casinoName}`);
+        router.push(`/Casinos/${name}`);
     }
 
     const handleInfo = (e) => {
