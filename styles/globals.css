@@ -553,12 +553,30 @@ body {
 }
 
 .que {
-  color: #35c193
+  color: #35c193;
+  font-weight: 600;
+  margin-top: 20px;
 }
 
 .rev {
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+.reviewTable {
+  border: 1px solid black;
+  width: 100%;
+}
+.reviewCol {
+  border: 1px solid black;
+  width: 20%;
+  text-align: center;
+}
+.reviewHeader{
+  color: #35c193;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: #e5f7f1;
 }
 
 @media (max-width: 530px) {

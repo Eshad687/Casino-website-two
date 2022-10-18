@@ -63,19 +63,19 @@
 
 
     </p>
-    <img className='my-2' style={{ borderRadius: '10px' }} width='100%' src='https://bitcoincasinosreviews.com/wp-content/uploads/2022/07/JustBit-Games.png' alt='' />
+    <img className='my-2' style={{ borderRadius: '10px' }} width='100%' src='/images/casinos/justbit/justbitReview2.webp' alt='' />
     <p>It is also important to note that every game that you run into in JustBit casino is developed by top software development companies such as BGaming, Betsoft, Booming Games, Belatra, Amatic, Evoplay, Netent, Evolution Gaming, Igrosoft, Nolimit City, and many others. These providers have worked hard to establish high-class and enchanting graphics in every product and as a result, you have a chance to get a memorable gambling experience here.</p>
     <p>
         Also, the website includes a search bar in case you want to find the desired games quickly. You can sort them by their first letters as well as by providers, so you will have no difficulty finding your favorite slots on this website. Continue reading to find out what you should expect in the game department of the JustBit crypto casino!
     </p>
     <h5 className='que'>Slots</h5>
-    <img className='my-2' style={{ borderRadius: '10px' }} width='100%' src='https://bitcoincasinosreviews.com/wp-content/uploads/2022/07/JustBit-slots.png' alt='' />
+    <img className='my-2' style={{ borderRadius: '10px' }} width='100%' src='/images/casinos/justbit/justbitReview3.webp' alt='' />
     <p>Slots are by far the most frequently played games in the majority of casinos these days. So, it comes as no surprise that JustBit developers spend most of their time and energy launching high-quality products in this segment that will engage every visitor. You can access every slot here just by clicking on the “Slots” button from the top menu and as we have said, there is a search bar where you have to enter the name of the desired game. In this department, you will come across various themes and some innovative elements in terms of gameplay. Do you love old classic-styled slots that include modern looks and improved abilities? Then JustBit casino is offering tremendous possibilities for you since there is a vast number of delightful games here. All the symbols and pictures are beautifully depicted which creates an eye-catching atmosphere as you spin the reels.</p>
     <p>
         Some of the most frequently played slots here include Gates of Olympus, Buffalo Hunter, Aztec Magic Bonanza, Micro Pirates, Mental, Big Bass Splash, Big Bass Bonanza, Folsom Prison, and many others. All of them promise to give you enormous excitement every time!
     </p>
     <h5 className='que'>Table Games</h5>
-    <img className='my-2' style={{ borderRadius: '10px' }} width='100%' src='https://bitcoincasinosreviews.com/wp-content/uploads/2022/07/JustBit-slots.png' alt='' />
+    <img className='my-2' style={{ borderRadius: '10px' }} width='100%' src='/images/casinos/justbit/justbitReview3.webp' alt='' />
     <p>
         The table games section is also a popular destination for the majority of gamblers these days. When they get tired of playing slots constantly, they want to experience some other products as well, so table games are a perfect choice in this case. Here you will encounter all kinds of Baccarat, Roulette, Poker, and Blackjack games as well as some other products such as Sic Bo, Craps, Dragon Tiger, Hi-Lo, and so forth. It is worth noting that table games of JustBit casino are also provided by the industry’s leading software development organizations and some important mention includes Belatra, Evolution Gaming, Habanero, and BGaming. So, you have a perfect chance to take a rest from the slots and visit the table games department in order to relax a bit and experience something new.
     </p>
