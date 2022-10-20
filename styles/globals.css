@@ -578,7 +578,9 @@ body {
   margin-top: 20px;
   background-color: #e5f7f1;
 }
-
+.imgLeft {
+  float: left;
+}
 @media (max-width: 530px) {
   .K2-pros-cons {
     flex-direction: column;
