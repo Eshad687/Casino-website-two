@@ -65,6 +65,7 @@
         While the rules regulate fair game play and the odds of winning are open, in case you notice anything wrong, you are being treated unfairly or whatever you don't like, you can easily contact the customer support team via live chat or by writing them a letter at support@stake.com. The most important thing that assures us that this bookie is trustworthy is that Stake is a verified member of the Crypto Gambling Foundation. The purpose of this platform is to verify that all games are fair. This means that every casino game you can play at this online casino will be fair and your winnings will be automatically transferred to your account.
     </p>
     <p>
+        <img className='my-4 img-fluid imgRight' src='/images/casinos/stake/stakeReview12.webp' alt='PlayAmo ScreenShot' />
         Shares owned by the founders of Primetime, an authoritative online gaming company. This website uses 2-step verification to further enhance security, and the platform is also protected by the latest encryption system. According to the reviews of Stake players, they always feel protected because data privacy and security of money are guaranteed when betting at this house. Thus, the regulations
     </p>
 
@@ -87,7 +88,7 @@
     <p>
         Currently, Stake accepts the following cryptocurrencies: Bitcoin (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Litecoin (LTC), Dogecoin (DOGE), Ripple (XRP), Tron (TRX) and EOS. Deposits into any of these eight major cryptocurrencies are unrestricted. However, keep in mind that you must deposit at least 20 USD or its equivalent in other currencies. This is a prerequisite for receiving bonuses and promotions.
     </p>
-    
+
     <table className='reviewTable'>
 
         <tr className='reviewHeader'>
@@ -141,7 +142,7 @@
         </tr>
 
     </table>
-    
+
     <h5 className='que'>How to deposit with BTC on Stake (Guide with pictures)</h5>
     <div className='d-flex justify-content-center align-items-center'>
         <img className='my-4 img-fluid' style={{ borderRadius: '10px' }} src='/images/casinos/stake/stakeReview4.webp' alt='' />

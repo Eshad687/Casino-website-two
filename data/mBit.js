@@ -13,7 +13,14 @@
         mBit's outstanding banking system is not the only thing.mBit provides a highly secure platform, so anyone concerned about online gaming safety can rest easy.In fact, the casino makes every effort to protect players' personal information from misuse.mBit Casino holds a license from Curacao, one of the world's most reputable regulators.It is run by Antillephone N.V., and their policies actually safeguard your personal information and respect your privacy in order to provide you with the best online gaming experience possible.
     </p>
     <p>
-        According to Curacao law, Antillephone N.V. holds the license number (8048/JAZ2020-013) for mBit, a leading online cryptocurrency casino.In a gambling environment that is licensed, secure, and safe, the online casino has a lot to offer.With its cutting-edge banking system and cutting-edge platform, the mBit Bitcoin casino offers a large selection of the most recent Bitcoin games.
+        <img className='my-4 img-fluid imgRight' src='/images/casinos/mBit/mbitReview16.webp' alt='mBit ScreenShot' />
+        Over 2000 games from well-known providers are available at the casino, ensuring that you will have an amazing time.They offer the most cutting-edge Bitcoin games, cutting-edge slot machines, a diverse selection of video poker, table, and live dealer games.Over twenty well-known game developers, including Play N'Go, Evolution Gaming, and others, have created them all.Most importantly, playing games is not the only form of entertainment; participating in these games can provide you with numerous advantages.The casino's bonus and promotion system is fantastic.A cashback mBit bonus, milestone bonuses, weekly reloads, and a lot more are available to you.You can get 110% up to 5 BTC by making a minimum first deposit of 0.005 BTC, in addition to other daily, weekly, and monthly offers in which you can also collect free spins. The welcome package is so generous.
+    </p>
+    <p>
+        Additionally, the casino provides numerous awards to its customers.You have the option of becoming a VIP member, which will grant you access to even more perks like more reel spins and the chance to raise your stakes per spin.Because VIP members receive bonuses and promotions tailored specifically to their specific requirements, being a VIP member even enhances your mBit experience.
+    </p>
+    <p>
+        mBit is a premier online cryptocurrency casino licensed and regulated by Antillephone N.V. with the following license number (8048/JAZ2020-013) according to Curacao law. The online casino has a lot to offer in a safe, secure, and licensed gambling environment. mBit Bitcoin casino provides a great number of the latest Bitcoin games with an advanced banking system and innovative platform.
     </p>
 
 
@@ -44,6 +51,7 @@
     </table>
     <h4 className='que'>Is mBit Safe?</h4>
     <p>
+        <img className='my-4 img-fluid imgLeft' src='/images/casinos/mBit/mbitReview15.webp' alt='mBit ScreenShot' />
         In the world of online gaming, mBit strives to provide the safest possible environment.Dama N.V., a well-known company incorporated under the laws of Curacao, owns and runs the casino.Antillephone N.V. (license number) oversees this business.8048/JAZ2020-013) and is registered in Willemstad, Curaçao, at Julianaplein 36.Your safety is guaranteed when you have a Curacao license because this regulator has very strict jurisdiction, making it nearly impossible for players to face threats while playing online.
     </p>
     <p>

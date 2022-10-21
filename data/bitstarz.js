@@ -54,11 +54,8 @@
     <p>
         When you look at all of these trustworthy regulators, you can be sure that no one will be able to access your personal information when you gamble online.Another great feature of the privacy policy is the acceptance of BTCs.The fact that cryptocurrencies are mostly anonymous and that it is impossible to determine a player's identity or bank information is one of the reasons why they are so popular with gamblers.We are specifically attempting to demonstrate to you in this BitStarz review that you can quickly and easily conduct financial transactions without having to worry about protecting yourself.essentially stating that BitStarz promises safety!
     </p>
-
-    <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' style={{ borderRadius: '10px' }} src='/images/casinos/bitstarz/bitstarzReview2.webp' alt='bitstarz ScreenShot' />
-    </div>
     <p>
+    <img className='my-4 img-fluid imgLeft' src='/images/casinos/bitstarz/bitstarzReview8.webp' alt='PlayAmo ScreenShot' />
         Therefore, mBit is a secure online casino protected by the most cutting-edge technologies. As a result, you can safely play your preferred games while your funds and data privacy are guaranteed.The casino does everything it can to keep its customers safe from online criminals so they don't lose money or get their identities stolen.However, if you have any concerns, the regulator will assist you in initiating and resolving disputes in accordance with your requirements.
     </p>
     <p>
@@ -76,11 +73,10 @@
         One of the most frequently asked questions by users is how to deposit and withdraw BTC, so we will endeavor to provide a comprehensive explanation of this procedure.Registration on the website is the first step; no BitStarz promo code is required for this.To begin playing games on BitStarz and making deposits or withdrawals to your account, you must join the community.The registration procedure is not difficult at all.Simply click the 'sign up' button in the platform's upper right corner.
     </p>
     <p>
+        <img className='my-4 img-fluid imgRight' src='/images/casinos/bitstarz/bitstarzReview9.webp' alt='PlayAmo ScreenShot' />
         You will then be able to put money in the account.However, if your deposit does not appear, either the blockchain has not yet confirmed it or your wallet has not yet sent the funds.Simply seek assistance from customer support if you encounter difficulties checking the blockchain.
     </p>
-    <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' style={{ borderRadius: '10px' }} src='/images/casinos/bitstarz/bitstarzReview3.webp' alt='bitstarz ScreenShot' />
-    </div>
+    
     <p>
         On this website, making a deposit takes very little time.Their banking system is generally excellent, and if you pay with fiat, you won't have to wait long to see your deposits in your account.As a result, you can begin playing their games right away after making your first deposit.Cryptocurrencies, on the other hand, present unique challenges.The amount of time required to complete cryptocurrency transactions at BitStarz Casino is determined by the number of pending transactions in the blockchain.Nonetheless, the procedure is usually finished in a few minutes.
     </p>
@@ -95,6 +91,9 @@
     <p>
         This online casino's depositing procedure is simple and takes just a few minutes.Take a look at our step-by-step guide to learn exactly how to deposit money on BitStarz.
     </p>
+    <div className='d-flex justify-content-center align-items-center'>
+        <img className='my-4 img-fluid' style={{ borderRadius: '10px' }} src='/images/casinos/bitstarz/bitstarzReview3.webp' alt='bitstarz ScreenShot' />
+    </div>
     <ul>
         <li>Step 1: Enter the desired deposit amount by clicking 'Deposit' at the top right of the page.</li>
         <li>Step 2: Select the currency you want to use for the deposit.</li>

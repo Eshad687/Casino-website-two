@@ -580,6 +580,13 @@ body {
 }
 .imgLeft {
   float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.imgRight {
+  float: right;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 @media (max-width: 530px) {
   .K2-pros-cons {

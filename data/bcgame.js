@@ -44,6 +44,7 @@
     </table>
     <h4 className='que'>Is BC.Game Safe?</h4>
     <p>
+        <img className='my-4 img-fluid imgLeft' src='/images/casinos/bcgame/bcgameReview8.webp' alt='PlayAmo ScreenShot' />
         The BC.Game online casino is without a doubt a secure environment for players to gamble.The website is licensed by the Curacao Gambling Authority, which has been overseeing the industry for more than three decades.Additionally, it only grants licenses to casinos that are secure to operate, indicating BC.Game's legitimacy.
 
     </p>
