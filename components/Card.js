@@ -38,7 +38,7 @@ function CustomToggle({ children, eventKey }) {
 const CardOne = (props) => {
     const [details, setDetails] = useState(false);
     const router = useRouter();
-    const { id, bonusTitle, screenshot, imageURL, products, rating, currencies, overView, name, siteLink, casinoName, bigImageURL, sidebarRating, basicOverview } = props.bet;
+    const { _id, id2, id3, id4, bonusTitle, screenshot, imageURL, products, rating, currencies, overView, name, siteLink, casinoName, bigImageURL, sidebarRating, basicOverview } = props.bet;
     const newRating = ((rating / 10) * 5);
     // console.log(sidebarRating)
     const handleClick = (e) => {
@@ -56,7 +56,7 @@ const CardOne = (props) => {
             <div style={{ margin: '10px', padding: '15px' }}>
                 <div className={styles.header0}>
                     <div style={{ display: 'flex' }}>
-                        <div className={styles.number}>{id}</div>
+                        <div className={styles.number}>{_id}</div>
                         <div className={styles.casinoname}>{casinoName}</div>
                         {/* THis will be a link to the site */}
                     </div>
@@ -98,7 +98,7 @@ const CardOne = (props) => {
                                 <h5 className={styles.bonus}>Features</h5>
                                 <div>
                                     {products && products.map((e) => (
-                                        <Features key={id} productsArray={e} />
+                                        <Features key={e._id} productsArray={e} />
                                     ))}
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ const CardOne = (props) => {
                                 <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                                     {
                                         currencies && currencies.map((e) => (
-                                            <Currencies key={id} taka={e} />
+                                            <Currencies key={e._id} taka={e} />
                                         ))
                                     }
                                 </div>
@@ -172,7 +172,7 @@ const CardOne = (props) => {
                             <div style={{ width: '100%' }}>
                                 {
                                     sidebarRating && sidebarRating.map((e) => (
-                                        <SideRating key={id} singleSidebarRating={e} />
+                                        <SideRating key={e._id} singleSidebarRating={e} />
                                     ))
                                 }
                             </div>
