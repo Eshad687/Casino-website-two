@@ -553,7 +553,9 @@ body {
 }
 
 .que {
-  color: #35c193
+  color: #35c193;
+  font-weight: 600;
+  margin-top: 20px;
 }
 
 .rev {
@@ -561,6 +563,31 @@ body {
   line-height: 2rem;
 }
 
+.reviewTable {
+  border: 1px solid black;
+  width: 100%;
+}
+.reviewCol {
+  border: 1px solid black;
+  width: 20%;
+  text-align: center;
+}
+.reviewHeader{
+  color: #35c193;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: #e5f7f1;
+}
+.imgLeft {
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.imgRight {
+  float: right;
+  padding-right: 5px;
+  padding-left: 5px;
+}
 @media (max-width: 530px) {
   .K2-pros-cons {
     flex-direction: column;
