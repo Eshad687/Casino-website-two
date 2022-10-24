@@ -8,16 +8,16 @@ const Cards = ({ casinos }) => {
     const [num, setNum] = useState(6);
     const [flag, setFlag] = useState(true);
     const handleCasinos = () => {
-        if(num<=11){
-            setNum(num+2);
+        if (num <= 15) {
+            setNum(num + 2);
         }
     };
     useEffect(() => {
-        if(num>11){
+        if (num >= 15) {
             setFlag(false);
         }
         setLimitedCasinos(casinos.slice(0, num));
-    },[num])
+    }, [num])
 
     return (
         <div className='text-center my-5 ff '>
@@ -40,12 +40,12 @@ const Cards = ({ casinos }) => {
             </div>
             <div>
                 {
-                    flag?
-                    <h6 className='show-more mt-5' onClick={handleCasinos}>Show More Casinos</h6>
-                    :
-                    <></>
+                    flag ?
+                        <h6 className='show-more mt-5' onClick={handleCasinos}>Show More Casinos</h6>
+                        :
+                        <></>
                 }
-                
+
             </div>
         </div>
     );
