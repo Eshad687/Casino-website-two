@@ -9,7 +9,7 @@ const Cards = ({ casinos }) => {
     const [flag, setFlag] = useState(true);
     const handleCasinos = () => {
         if (num <= 15) {
-            setNum(num + 2);
+            setNum(num + 4);
         }
     };
     useEffect(() => {
@@ -33,7 +33,7 @@ const Cards = ({ casinos }) => {
             <div className='mt-3'>
                 {
                     limitedCasinos && limitedCasinos.map(bet => <Card
-                        key={bet.id}
+                        key={bet._id}
                         bet={bet}
                     />)
                 }
