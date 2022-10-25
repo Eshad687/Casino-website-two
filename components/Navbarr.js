@@ -16,9 +16,9 @@ const Navbarr = () => {
     const [langList, setLangList] = useState(["spain", "france"]);
 
 
-    const handleLang = (e) =>{
+    const handleLang = (e) => {
         // console.log(e.target.alt)
-        let array = langList.filter(function(item) {
+        let array = langList.filter(function (item) {
             return item !== e.target.alt
         })
         // console.log(array)
@@ -63,11 +63,18 @@ const Navbarr = () => {
     return (
         <div>
             <Navbar style={navbar ? style2 : style1} fixed="top" collapseOnSelect expand="lg">
-                <Container className="py-2">
-                    <Navbar.Brand href="#home">GamblingCo.in</Navbar.Brand>
+                <Container className="">
+                    <Navbar.Brand className='d-flex align-items-center' href="/">
+                        <Image width="60px" height="60px" src="/images/logo/siteLogo.webp" alt="" />
+                        <h6 className="m-0 p-0 fw-bold"> Best Gamble
+                            <br />
+                            Casinos</h6>
+
+
+                    </Navbar.Brand>
                     <Navbar.Toggle onClick={() => setNavbar(true)} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className='ms-auto'>
+                        <Nav className='ms-auto mt-2'>
                             {/* <Nav.Link className="ag" href="#features">Features</Nav.Link>
                             <Nav.Link className="ag" href="#pricing">Pricing</Nav.Link> */}
                             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
@@ -135,25 +142,25 @@ const Navbarr = () => {
                                             alt="Language - United Kingdom"
                                             width={30}
                                             height={30}
-                                            />
-                                            </button>
-                                    <div className={styles.dropdownContent }>
+                                        />
+                                    </button>
+                                    <div className={styles.dropdownContent}>
                                         <div onClick={handleLang}>
                                             <Image
-                                            src={`/images/svg/languages/${langList[0]}.svg`}
-                                            alt={langList[0]}
-                                            width={50}
-                                            height={50}
+                                                src={`/images/svg/languages/${langList[0]}.svg`}
+                                                alt={langList[0]}
+                                                width={50}
+                                                height={50}
                                             />
-                                            </div>
+                                        </div>
                                         <div onClick={handleLang}>
                                             <Image
-                                            src={`/images/svg/languages/${langList[1]}.svg`}
-                                            alt={langList[1]}
-                                            width={50}
-                                            height={50}
+                                                src={`/images/svg/languages/${langList[1]}.svg`}
+                                                alt={langList[1]}
+                                                width={50}
+                                                height={50}
                                             />
-                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

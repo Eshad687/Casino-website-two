@@ -12,13 +12,18 @@ import Head from 'next/head';
 function CasinoDetail() {
     const router = useRouter()
     const casinoID = router.query.casinoId;
+
     const [bet, setBet] = useState(bets.find(b => b.name.toString() == casinoID));
 
     useEffect(() => {
+        if (!casinoID) {
+            router.push("/404")
+        }
         window.scrollTo({
             top: 0,
             behavior: 'instant'
         });
+
     }, []);
 
     useEffect(() => {
@@ -29,11 +34,11 @@ function CasinoDetail() {
     return (
         <>
             <Head>
-                <title>GamblingCo.in</title>
+                <title>{bet.casinoName} Review</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main >
+            {casinoID && <main >
                 <Box className="my-5 pt-5 container" >
                     <Grid container spacing={2}>
 
@@ -48,7 +53,7 @@ function CasinoDetail() {
                                             <img style={{ borderRadius: "10px" }} width="100px" height="100px" src={bet && bet.imageURL} alt="" />
                                             <div className='ms-3'>
                                                 <div className="fs-2 fw-bold">{bet && bet.casinoName}</div>
-                                                <Chip sx={{ backgroundColor: "#35c193" }} className="fw-bold fs-6 my-2 text-white" label={`# ${bet && bet.id}`} />
+                                                <Chip sx={{ backgroundColor: "#35c193" }} className="fw-bold fs-6 my-2 text-white" label={`# ${bet && bet._id}`} />
                                             </div>
 
                                         </div>
@@ -127,7 +132,7 @@ function CasinoDetail() {
                                     </div>
                                 </Paper>
                                 <Box className="d-flex justify-content-between gap-2 mb-3">
-                                    <Button className="wager-btn2 border-0 w-100 ">Get Started</Button><Button className="wager-btn border-0 w-100">Play Now</Button>
+                                    <Button href={bet && bet.siteLink} className="wager-btn2 border-0 w-100 ">Get Started</Button><Button href={bet && bet.siteLink} className="wager-btn border-0 w-100">Play Now</Button>
                                 </Box>
                             </Box>
 
@@ -161,7 +166,7 @@ function CasinoDetail() {
                         </Grid>
                     </Grid>
                 </Box>
-            </main>
+            </main>}
         </>
     );
 }
