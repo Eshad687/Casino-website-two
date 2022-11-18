@@ -4,8 +4,8 @@ import React from 'react';
 const Curriencies = ({ taka }) => {
     return (
         <>
-            <div style={{padding:'1px'}}>
-                <img src={taka} width='25px' height='25px' />
+            <div style={{ padding: '1px' }}>
+                <img alt='best gamble casinos' src={taka} width='25px' height='25px' />
             </div>
         </>
     );

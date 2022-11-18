@@ -19,7 +19,7 @@ const FindBestCasino = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-1 offset-md-2'>
-                        <img width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Country-support.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" style={{ marginTop: '13px' }} />
+                        <img alt='best gamble casinos' width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Country-support.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" style={{ marginTop: '13px' }} />
                     </div>
                     <div className='col-md-6' style={{ borderLeft: '4px solid #eef1f3', marginLeft: '-20px', paddingLeft: '40px', marginBottom: '40px', paddingBottom: '0px' }}>
                         <h3 className={styles.headings}>
@@ -57,7 +57,7 @@ const FindBestCasino = () => {
                 </div>
                 <div className='row' style={{ marginTop: '50px' }}>
                     <div className='col-md-1 offset-md-2'>
-                        <img width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Trust.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" style={{ marginTop: '13px' }} />
+                        <img alt='best gamble casinos' width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Trust.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" style={{ marginTop: '13px' }} />
                     </div>
                     <div className='col-md-6' style={{ borderLeft: '4px solid #eef1f3', marginLeft: '-20px', paddingLeft: '40px', marginBottom: '40px', paddingBottom: '0px' }}>
                         <h3 className={styles.headings}>
@@ -94,7 +94,7 @@ const FindBestCasino = () => {
                 </div>
                 <div className='row' style={{ marginTop: '50px' }}>
                     <div className='col-md-1 offset-md-2'>
-                        <img width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Payments.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" style={{ marginTop: '13px' }} />
+                        <img alt='best gamble casinos' width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Payments.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" style={{ marginTop: '13px' }} />
                     </div>
                     <div className='col-md-6' style={{ borderLeft: '4px solid #eef1f3', marginLeft: '-20px', paddingLeft: '40px', marginBottom: '40px', paddingBottom: '0px' }}>
                         <h3 className={styles.headings}>
@@ -144,7 +144,7 @@ const FindBestCasino = () => {
                 </div>
                 <div className='row' style={{ marginTop: '50px' }}>
                     <div className='col-md-1 offset-md-2'>
-                        <img width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/End-to-end.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" style={{ marginTop: '13px' }} />
+                        <img alt='best gamble casinos' width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/End-to-end.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" style={{ marginTop: '13px' }} />
                     </div>
                     <div className='col-md-6' style={{ borderLeft: '4px solid #eef1f3', marginLeft: '-20px', paddingLeft: '40px', marginBottom: '40px', paddingBottom: '0px' }}>
                         <h3 className={styles.headings}>
@@ -183,7 +183,7 @@ const FindBestCasino = () => {
                 </div>
                 <div className='row' style={{ marginTop: '50px' }}>
                     <div className='col-md-1 offset-md-2'>
-                        <img width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Bonus.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" style={{ marginTop: '13px' }} />
+                        <img alt='best gamble casinos' width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Bonus.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" style={{ marginTop: '13px' }} />
                     </div>
                     <div className='col-md-6' style={{ borderLeft: '4px solid #eef1f3', marginLeft: '-20px', paddingLeft: '40px', marginBottom: '40px', paddingBottom: '0px' }}>
                         <h3 className={styles.headings}>
@@ -224,7 +224,7 @@ const FindBestCasino = () => {
                 </div>
                 <div className='row' style={{ marginTop: '50px' }}>
                     <div className='col-md-1 offset-md-2'>
-                        <img width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Sports.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" style={{ marginTop: '13px' }} />
+                        <img alt='best gamble casinos' width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Sports.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" style={{ marginTop: '13px' }} />
                     </div>
                     <div className='col-md-6' style={{ borderLeft: '4px solid #eef1f3', marginLeft: '-20px', paddingLeft: '40px', marginBottom: '40px', paddingBottom: '0px' }}>
                         <h3 className={styles.headings}>
@@ -276,7 +276,7 @@ const FindBestCasino = () => {
                 </div>
                 <div className='row' style={{ marginTop: '50px' }}>
                     <div className='col-md-1 offset-md-2'>
-                        <img width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Support.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" style={{ marginTop: '13px' }} />
+                        <img alt='best gamble casinos' width="30px" height="30px" src="https://cryptobetting.org/wp-content/uploads/2021/05/Support.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" style={{ marginTop: '13px' }} />
                     </div>
                     <div className='col-md-6' style={{ borderLeft: '4px solid #eef1f3', marginLeft: '-20px', paddingLeft: '40px', marginBottom: '40px', paddingBottom: '0px' }}>
                         <h3 className={styles.headings}>

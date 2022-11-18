@@ -24,7 +24,7 @@ const Banner = () => {
                             <Card style={{ cursor: "pointer" }} className=' top-card '>
                                 <small className='text-center px-2 best w-50'>Best Overall</small>
                                 <div className='py-3 d-flex justify-content-around'>
-                                    <img className="border border-circle" width="30%" height="30%" src="/images/casinos/justbit/justbitLogo.webp" alt="" />
+                                    <img alt='best gamble casinos' className="border border-circle" width="30%" height="30%" src="/images/casinos/justbit/justbitLogo.webp" />
                                     <div>
                                         <h5 className=' '>Justbit Casino</h5>
                                         <Rating name="read-only" value={4} readOnly />

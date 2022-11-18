@@ -19,7 +19,7 @@
         Bitcasino Bitcoin casino is owned by Moon Technologies B.V. Furthermore, all of the casino games that you encounter on Bitcasino.io are regulated by Moon Technologies B.V., who are operating under the license 1668/JAZ issued by the Government of Curaçao on October 1, 1996.
     </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino3.webp' alt='' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino3.webp' />
     </div>
     <p>
         Curacao is considered to be one of the most stable and oldest providers of gaming licenses in the online casino industry. They ensure stability and regulated operation of different online casinos – including the ones that offer Bitcoin.
@@ -65,13 +65,13 @@
         <li>
             As soon as you enter your account, click your user icon, and then click Deposit. Note that you do not need to indicate Bitcasino promo code;
             <div className='d-flex justify-content-center align-items-center'>
-                <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino8.webp' alt='' />
+                <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino8.webp' />
             </div>
         </li>
         <li>
             Copy the one-time deposit address you will see below the currency drop-down list and use it in your wallet;
             <div className='d-flex justify-content-center align-items-center'>
-                <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino9.webp' alt='' />
+                <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino9.webp' />
             </div>
         </li>
         <li>
@@ -111,7 +111,7 @@
         On Bitcasino you will meet casino game providers such as Pragmatic Play, NetEnt, Yggdrasil, BetSoft, all of which have already established themselves as one of the top operators.
     </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino4.webp' alt='' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino4.webp' />
     </div>
     <h5 className='que'>Live Games</h5>
     <p>
@@ -121,7 +121,7 @@
         There are more than 100 games available in the Bitcasino live games section. As soon as you get the Bitcasino bonus you can use them for live games as well. You can play baccarat, blackjack, and roulette. They also have different variations which you can see in the Live Games section.
     </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino5.webp' alt='' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino5.webp' />
     </div>
 
     <h5 className='que'>Baccarat</h5>
@@ -132,7 +132,7 @@
         There is an option of playing baccarat free, without risking your funds. Like in slots, the demo version is present, to help a player understand the main concepts of the game, test various strategies, and what’s more – get used to the gameplay. This is a unique feature that is designed to assist newcomers.
     </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino7.webp' alt='' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino7.webp' />
     </div>
     <h5 className='que'>Roulette</h5>
     <p>
@@ -142,7 +142,7 @@
         Live roulette allows you to experience the atmosphere of a real casino. The only difference from the usual roulette – the one you will play without live dealers – is that you will get the most out of the game.
     </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino6.webp' alt='' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino6.webp' />
     </div>
     <h4 className='que'>Bitcasino.io Bonus – How Many Types Can You Get?</h4>
     <p>
@@ -181,7 +181,7 @@
         For many customers, the initial registration process becomes very complicated. Some casinos have very vague instructions on how to create your account but on Bitcasino this process is very simple and we will explain the Bitcasino registration steps thoroughly.
     </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino10.webp' alt='' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino10.webp' />
     </div>
     <h5 className="que">
         Step 1 – Creating an account

@@ -18,7 +18,7 @@ const ProsHome = () => {
                                 <h3 className="content-item__title">
                                     Fiat currencies have become ineffective </h3>
                                 <div className="content-item__pic">
-                                    <img width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/Fiat.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /> </div>
+                                    <img alt='best gamble casinos' width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/Fiat.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" /> </div>
                             </div>
                             <div className="discover-more__items-column-block">
                                 <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Fiat currencies are boring.&quot;}" data-sheets-userformat="{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}">Fiat currencies are fast becoming yesterday’s news.</span></p>
@@ -38,7 +38,7 @@ const ProsHome = () => {
                                 <h3 className="content-item__title">
                                     Fewer geographical restrictions </h3>
                                 <div className="content-item__pic">
-                                    <img width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/restrictions.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /> </div>
+                                    <img alt='best gamble casinos' width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/restrictions.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" /> </div>
                             </div>
                             <div className="discover-more__items-column-block">
                                 <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;You can exchange Bitcoins without intermediaries.&quot;}" data-sheets-userformat="{&quot;2&quot;:641,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:2,&quot;12&quot;:0}">You can exchange Bitcoins without intermediaries.</span></p>
@@ -59,7 +59,7 @@ const ProsHome = () => {
                                 <h3 className="content-item__title">
                                     Higher privacy </h3>
                                 <div className="content-item__pic">
-                                    <img width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/Privacy.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /> </div>
+                                    <img alt='best gamble casinos' width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/Privacy.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" /> </div>
                             </div>
                             <div className="discover-more__items-column-block">
                                 <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Banks don’t like online sports betting sites.&quot;}" data-sheets-userformat="{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}">You might know that banks don’t appreciate online sports betting sites.</span></p>
@@ -78,7 +78,7 @@ const ProsHome = () => {
                                 <h3 className="content-item__title">
                                     Your assets grow up in value </h3>
                                 <div className="content-item__pic">
-                                    <img width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/bull-market.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /> </div>
+                                    <img alt='best gamble casinos' width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/bull-market.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" /> </div>
                             </div>
                             <div className="discover-more__items-column-block">
                                 <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;While you gamble with fiat, you hold … fiat.&quot;}" data-sheets-userformat="{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}">When wagering on standard sports betting websites with fiat currencies, you are wasting an investment opportunity. </span></p>
@@ -95,7 +95,7 @@ const ProsHome = () => {
                                 <h3 className="content-item__title">
                                     Financial independence </h3>
                                 <div className="content-item__pic">
-                                    <img width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/financial-independence.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /> </div>
+                                    <img alt='best gamble casinos' width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/financial-independence.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" /> </div>
                             </div>
                             <div className="discover-more__items-column-block">
                                 <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Have you ever struggled to deposit on betting sites? We have.&quot;}" data-sheets-userformat="{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}">If you’re anything like us, you have had issues trying to deposit money on betting sites.</span></p>
@@ -115,7 +115,7 @@ const ProsHome = () => {
                                 <h3 className="content-item__title">
                                     Faster, safer and better Betting Sites </h3>
                                 <div className="content-item__pic">
-                                    <img width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/better-betting-sites.svg" className="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /> </div>
+                                    <img alt='best gamble casinos' width="50" height="50" src="https://cryptobetting.org/wp-content/uploads/2021/05/better-betting-sites.svg" className="attachment-thumbnail size-thumbnail" loading="lazy" /> </div>
                             </div>
                             <div className="discover-more__items-column-block">
                                 <p><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Many online sports betting sites accept Bitcoins. The trouble is, most of them offer fairly poor services.&quot;}" data-sheets-userformat="{&quot;2&quot;:641,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:2,&quot;12&quot;:0}">Many online sports betting sites accept Bitcoins. The trouble is, most of them offer fairly poor services.</span></p>

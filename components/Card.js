@@ -86,7 +86,7 @@ const CardOne = (props) => {
             <div className='container'>
                 <div className='row' style={{ margin: '0px', marginTop: '-10px', paddingBottom: '25px' }}>
                     <div className='col-md-2' style={{}}>
-                        <img src={imageURL} layout='fill' style={{ height: '140px' }} className='img-fluid p-1' />
+                        <img alt='best gamble casinos' src={imageURL} layout='fill' style={{ height: '140px' }} className='img-fluid p-1' />
                     </div>
                     <div className={`${styles.header1} col-md-4`} >
                         <h5 className={styles.bonus}>Bonus</h5>

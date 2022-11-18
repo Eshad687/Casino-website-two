@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 export default function Custom404() {
     return <div style={{ height: "100vh" }} className="d-flex justify-content-center align-items-center">
         <div className="text-center">
-            <Image width="400px" height="400px" src="/images/404/404.webp" alt="" />
+            <Image width="400px" height="400px" src="/images/404/404.webp" />
             <br />
             <br />
             <div className="d-flex justify-content-center">

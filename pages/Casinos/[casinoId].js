@@ -7,6 +7,7 @@ import parse from 'html-react-parser';
 import Image from 'next/image';
 import styles from '../../styles/review.module.css';
 import Head from 'next/head';
+import Link from 'next/link';
 
 
 function CasinoDetail() {
@@ -16,9 +17,12 @@ function CasinoDetail() {
     const [bet, setBet] = useState(bets.find(b => b.name.toString() == casinoID));
 
     useEffect(() => {
-        if (!casinoID) {
+
+
+        if (!bet) {
             router.push("/404")
         }
+
         window.scrollTo({
             top: 0,
             behavior: 'instant'
@@ -27,18 +31,21 @@ function CasinoDetail() {
     }, []);
 
     useEffect(() => {
+        if (!router.isReady) return;
         const temp = bets.find(b => b.name.toString() == casinoID);
         setBet(temp);
-    }, [casinoID]);
+    }, [casinoID, router.isReady]);
+
 
     return (
         <>
             <Head>
-                <title>{bet.casinoName} Review</title>
+                <title>{bet?.casinoName} Review</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta name="description" content="Best Gamble Casinos" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            {casinoID && <main >
+            {bet && <main >
                 <Box className="my-5 pt-5 container" >
                     <Grid container spacing={2}>
 
@@ -50,7 +57,7 @@ function CasinoDetail() {
                                 <Paper className="p-3 mb-3">
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div className='d-flex'>
-                                            <img style={{ borderRadius: "10px" }} width="100px" height="100px" src={bet && bet.imageURL} alt="" />
+                                            <img alt='best gamble casinos' style={{ borderRadius: "10px" }} width="100px" height="100px" src={bet && bet.imageURL} />
                                             <div className='ms-3'>
                                                 <div className="fs-2 fw-bold">{bet && bet.casinoName}</div>
                                                 <Chip sx={{ backgroundColor: "#35c193" }} className="fw-bold fs-6 my-2 text-white" label={`# ${bet && bet._id}`} />

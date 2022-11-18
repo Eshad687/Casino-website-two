@@ -65,7 +65,7 @@ const Navbarr = () => {
             <Navbar style={navbar ? style2 : style1} fixed="top" collapseOnSelect expand="lg">
                 <Container className="">
                     <Navbar.Brand className='d-flex align-items-center' href="/">
-                        <Image width="60px" height="60px" src="/images/logo/siteLogo.webp" alt="" />
+                        <Image width="60px" height="60px" src="/images/logo/siteLogo.webp" alt="best gamble casino" />
                         <h6 className="m-0 p-0 fw-bold"> Best Gamble
                             <br />
                             Casinos</h6>
