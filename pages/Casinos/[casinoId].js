@@ -22,7 +22,7 @@ function CasinoDetail() {
         if (!bet) {
             router.push("/404")
         }
-
+        // window.history.scrollRestoration = 'manual'
         window.scrollTo({
             top: 0,
             behavior: 'instant'

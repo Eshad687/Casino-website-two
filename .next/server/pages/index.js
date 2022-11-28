@@ -432,6 +432,7 @@ var Add_default = /*#__PURE__*/__webpack_require__.n(Add_namespaceObject);
 
 
 
+
 // http://cryptoicons.co/
 function CustomToggle({ children , eventKey  }) {
     const decoratedOnClick = useAccordionButton(eventKey, ()=>console.log("totally custom!")
@@ -721,12 +722,15 @@ const CardOne = (props)=>{
                                             children: overView
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                className: `text-decoration-none text ${(card_module_default()).link}`,
-                                                target: "_blank",
-                                                rel: "noreferrer",
-                                                onClick: handleClick,
-                                                children: "Read Review"
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                rel: "canonical",
+                                                href: `/Casinos/${name}`,
+                                                passHref: true,
+                                                legacyBehavior: true,
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                    className: `text-decoration-none text ${(card_module_default()).link}`,
+                                                    children: "Read Review"
+                                                })
                                             })
                                         })
                                     ]
@@ -769,12 +773,12 @@ const Cards = ({ casinos  })=>{
     const { 0: num , 1: setNum  } = (0,external_react_.useState)(6);
     const { 0: flag , 1: setFlag  } = (0,external_react_.useState)(true);
     const handleCasinos = ()=>{
-        if (num <= 15) {
+        if (num <= 20) {
             setNum(num + 4);
         }
     };
     (0,external_react_.useEffect)(()=>{
-        if (num >= 15) {
+        if (num >= 20) {
             setFlag(false);
         }
         setLimitedCasinos(casinos.slice(0, num));
@@ -2486,12 +2490,12 @@ const getStaticProps = async ()=>{
     };
 };
 function Home({ casinos  }) {
-    // console.log(casinos)
     (0,external_react_.useEffect)(()=>{
-        window.scrollTo({
-            top: 0,
-            behavior: "instant"
-        });
+        // window.scrollTo({
+        //   top: 0,
+        //   behavior: 'instant'
+        // });
+        window.history.scrollRestoration = "manual";
     }, []);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         children: [

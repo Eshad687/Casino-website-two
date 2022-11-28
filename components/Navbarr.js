@@ -62,13 +62,13 @@ const Navbarr = () => {
     }
     return (
         <div>
-            <Navbar style={navbar ? style2 : style1} fixed="top" collapseOnSelect expand="lg">
+            <Navbar style={navbar ? style2 : style1} fixed="top" collapseOnSelect expand="lg" className='p-0'>
                 <Container className="">
-                    <Navbar.Brand className='d-flex align-items-center' href="/">
-                        <Image width="60px" height="60px" src="/images/logo/siteLogo.webp" alt="best gamble casino" />
-                        <h6 className="m-0 p-0 fw-bold"> Best Gamble
+                    <Navbar.Brand className='d-flex align-items-center p-0' href="/">
+                        <Image width="120px" height="85px" src="/images/logo/siteLogo2.webp" alt="best gamble casino" />
+                        {/* <h6 className="m-0 p-0 fw-bold"> Best Gamble
                             <br />
-                            Casinos</h6>
+                            Casinos</h6> */}
 
 
                     </Navbar.Brand>

@@ -45,7 +45,7 @@ const Footer = ()=>{
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                     className: "mb-4",
-                    children: "GamblingCo.in"
+                    children: "Best Gamble Casinos"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                     className: "my-5",
@@ -247,28 +247,19 @@ const Navbarr = ()=>{
             fixed: "top",
             collapseOnSelect: true,
             expand: "lg",
+            className: "p-0",
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2___default()), {
                 className: "",
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_5___default().Brand), {
-                        className: "d-flex align-items-center",
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_5___default().Brand), {
+                        className: "d-flex align-items-center p-0",
                         href: "/",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_8___default()), {
-                                width: "60px",
-                                height: "60px",
-                                src: "/images/logo/siteLogo.webp",
-                                alt: "best gamble casino"
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h6", {
-                                className: "m-0 p-0 fw-bold",
-                                children: [
-                                    " Best Gamble",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                    "Casinos"
-                                ]
-                            })
-                        ]
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_8___default()), {
+                            width: "120px",
+                            height: "85px",
+                            src: "/images/logo/siteLogo2.webp",
+                            alt: "best gamble casino"
+                        })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_5___default().Toggle), {
                         onClick: ()=>setNavbar(true)

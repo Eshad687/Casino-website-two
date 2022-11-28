@@ -78,7 +78,6 @@ function MyApp({ Component , pageProps  }) {
         setTimeout(()=>setLoading(false)
         , 2000);
     }, []);
-    console.log(loading);
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: !loading ? /*#__PURE__*/ jsx_runtime_.jsx(Layout, {
             children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {

@@ -12,7 +12,7 @@ import SideRating from './SideRating';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import AddIcon from '@mui/icons-material/Add';
-
+import Link from 'next/link'
 // http://cryptoicons.co/
 
 function CustomToggle({ children, eventKey }) {
@@ -162,7 +162,9 @@ const CardOne = (props) => {
                                     {overView}
                                 </h5>
                                 <div>
-                                    <a className={`text-decoration-none text ${styles.link}`} target="_blank" rel="noreferrer" onClick={handleClick} >Read Review</a>
+                                    <Link rel="canonical" href={`/Casinos/${name}`} passHref legacyBehavior>
+                                        <a className={`text-decoration-none text ${styles.link}`}>Read Review</a>
+                                    </Link>
                                 </div>
                             </div>
 

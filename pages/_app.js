@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
     setTimeout(() => setLoading(false), 2000);
   }, []);
-  console.log(loading)
+  
   return (
     <>
       {!loading ? <Layout>

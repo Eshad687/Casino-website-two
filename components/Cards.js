@@ -8,12 +8,12 @@ const Cards = ({ casinos }) => {
     const [num, setNum] = useState(6);
     const [flag, setFlag] = useState(true);
     const handleCasinos = () => {
-        if (num <= 15) {
+        if (num <= 20) {
             setNum(num + 4);
         }
     };
     useEffect(() => {
-        if (num >= 15) {
+        if (num >= 20) {
             setFlag(false);
         }
         setLimitedCasinos(casinos.slice(0, num));

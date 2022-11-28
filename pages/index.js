@@ -25,12 +25,13 @@ export const getStaticProps = async () => {
 
 
 export default function Home({ casinos }) {
-  // console.log(casinos)
+
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'instant'
-    });
+    // window.scrollTo({
+    //   top: 0,
+    //   behavior: 'instant'
+    // });
+    window.history.scrollRestoration = 'manual'
   }, []);
   return (
     <div >

@@ -1,224 +1,196 @@
 <div className='rev'>
     <p>
-        The competition in the online casino industry is huge – not to mention the ones which offer cryptocurrencies for playing and we are going to talk about it in our Bitcasino.io casino review. Bitcasino is an online casino created exclusively for those players who play Bitcoins. This company is relatively new, so its developers have done their job very well because even for players who do not have experience of playing in an online casino, everything is clearly explained here.
+        TrustDice casino is one of the best places where you can gamble. The online casino has been in the service of gamblers since 2018 and it has gained users from all parts of the world. The platform is owned and operated by Satoshi Gaming Group N.V. which is known for providing great crypto gambling websites and TrustDice is one of them.
     </p>
     <p>
-        Besides Bitcoin, the casino also offers deposits through ETH, LTC, TRX, USDT, XRP, however, Bitcoin remains the most popular option for customers. The minimum deposit is equal to 0.001 BTC.
+        If safety is a priority for you, TrustDice will be a paradise since the online casino is completely legit and trustworthy. This claim can perfectly be backed up by the fact that the government of Curacao has granted the platform its license. Given the circumstances, you can benefit from any service that is offered on the website without fear of being scammed.
     </p>
-    <p>
-        The range of games in this casino is one of the best, as there are more than 2700 games available such as poker, blackjack, slots, rummy, lottery, and roulette. At the same time, famous developers such as Microgaming, Pragmatic Play, Red Tiger offer hundreds of games. Newcomers to the casino are met with a bonus up to 100% of the amount of replenishment, as well as bonuses for re-refilling your account.
-    </p>
-    <p>
-        Bitcasino is a regulated and licensed online gambling site. Bitcasino.io is operated and owned by Moon Technologies B.V. (Schout Bij Nacht Doormanweg 40, P.O. Box 4745, Curaçao). Casino games offered on Bitcasino.io are provided and regulated by Moon Technologies B.V., who are operating under the license 1668/JAZ issued to Curacao eGaming by the Government of Curaçao on October 1, 1996. Complaints and cases of violation of terms and conditions are transferred to specific jurisdiction. Under the license, BitCasino cannot accept players from the United States.
-    </p>
-    <p>
-        Bitcasino.io Bitcoin casino is a licensed and safe operator. The casino offers a wide array of casino games. At the same time, customers are also available to use 5 different cryptocurrencies, except Bitcoin.
-    </p>
-    <h4 className='que'>Is Bitcasino.io Safe?</h4>
-    <p>
-        Bitcasino Bitcoin casino is owned by Moon Technologies B.V. Furthermore, all of the casino games that you encounter on Bitcasino.io are regulated by Moon Technologies B.V., who are operating under the license 1668/JAZ issued by the Government of Curaçao on October 1, 1996.
-    </p>
+
     <div className='d-flex justify-content-center align-items-center'>
-        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino3.webp' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice3.webp' />
     </div>
     <p>
-        Curacao is considered to be one of the most stable and oldest providers of gaming licenses in the online casino industry. They ensure stability and regulated operation of different online casinos – including the ones that offer Bitcoin.
+        Players who choose to gamble at TrustDice can take advantage of numerous benefits besides the safe gambling environment. Generous bonuses and promotions, a user-friendly platform, and a helpful customer support team are just a few to mention. TrustDice is a crypto casino which is another perk of the platform. Crypto options mean much faster and more secure payments which are very important since it saves time and reduce the risk of fraud to the minimum level.
     </p>
 
     <p>
-        The license is important as it provides a number of advantages. First of all, it is fair and open odds for winning, which is necessary for newcomers. The license ensures that the casino does not have an unfair advantage and every player is equal.
+        Another great news is that TrustDice comes with a very wide variety of casino games. Users of the platform can entertain themselves with video slots and table games as well as with live casino games. The important thing is that each and every casino game that is presented on the platform is released by top-notch software development companies. It means that TrustDice guarantees a very high level of entertainment to its users.
     </p>
 
     <p>
-        Bitcoin casino is still a relatively new field in the gambling industry, so there is little choice for high-authority operators. On Bitcasino, with a license, it is possible to resolve legal disputes by complaining to the regulator which is responsible for any violation of the law. The license also protects users’ data privacy and funds are protected from being lost.
+        TrustDice casino is a legit gambling platform that operates under License No. 8048/JAZ issued to Antillephone, Authorized and Regulated by the Government of Curacao. The online casino offers a wide choice of high-quality casino games accompanied by generous bonuses. The website itself offers a user-friendly environment and a dedicated customer support team.
     </p>
 
     <p>
-        Considering all of these indicators, we can deduce that Bitcasino is a completely safe and legal casino to play with and the license plays a pivotal role in this.
+        We are sure that you have come across several TrustDice reviews through the internet but if you want to see the true colors of the platform, then you should keep reading this one. The review will provide you with every important detail that is related to the platform and discuss every feature that you should be aware of.
     </p>
-    <h4 className='que'>Bitcasino.io Bitcoin Deposits/Withdrawals – Are There Other Options?</h4>
+    <h4 className='que'>Is TrusDice Safe?</h4>
     <p>
-        Since Bitcasino is a casino that accepts Bitcoins and 5 other cryptocurrencies, there is no possibility to top up the account with fiat currencies. Therefore, to deposit funds to your casino account, you must have a crypto wallet. The minimum deposit is 0.001 mBTC.
-    </p>
-    <p>
-        To deposit money to your account, simply click the Deposit button, which appears in the top right corner of the site, after you enter your personal account. Most deposits on Bitcasino Bitcoin casino are executed in a blink of an eye, however, a particular wallet or third-party service might delay your transaction, before it is added to the blockchain. It should be said that a transaction with a smaller fee usually takes more time, than the one with a higher fee, so it is advised to use the average recommended fee.
+        TrustDice Casino is one of the safest options when it comes to online gambling. The website is licensed by the government of Curacao which means a lot in the online casino industry. Curacao only gives licenses to the gambling platforms that contain no extra risks and if an online casino is regulated by them, you can be sure that you are safe from any kind of fraud.
     </p>
     <p>
-        To withdraw money from your account, simply go to your personal account choose the cryptocurrency you would like to withdraw, and then click Withdraw and specify the amount you want to withdraw and the address to which the amount will be transferred. This is a perfectly simple process. Most withdrawals are executed instantly. If there is a case of several withdrawals, then the withdrawals are carried out manually so a customer might encounter a little delay.
+        Besides that, TrsutDice gets its games from very reputable software development companies. Casino games that are developed by those providers are not only visually pleasing and interesting but also provide fair gameplay, rules that give equal chances to everyone, and RTP numbers that are close to the industry’s average RTP.
     </p>
     <p>
-        Bitcasino even ensures that if there is a problem with an Internet connection during a Bitcasino deposit, a person can contact the support group, which will solve the problem by providing additional details regarding a personal account.
+        Additionally, TrustDice offers players crypto-based payment options which are the safest way to withdraw and deposit. Thanks to blockchain technology, which is lightning fast and shows details of each and every transaction, crypto options offer players fast and secure transactions. Given the circumstances, we can assure you that the answer to the question “Is TrustDice Legit?” is “Yes”.
     </p>
+    <h4 className='que'>TrustDice Bitcoin Deposits/Withdrawals – What Are The Options?</h4>
     <p>
-        In short depositing and withdrawing your funds with cryptocurrencies have numerous advantages. First of all, it is the speed of transaction and the possibility to remain anonymous. Most of the users do not want their personal transactions to be disclosed to central banks and governments.
-    </p>
-    <h5 className='que'>Crypto Deposit Options</h5>
-    <p>
-        As has already been mentioned above there are 5 different options, besides Bitcoin, to make a deposit on your account. There is no commission fee for the deposited money. The minimum deposit in the case of Bitcoin is equal to 0.001 BTC and varies for other currencies. As for maximum withdrawal, it is 1 BTC and its equivalent in other currencies.
+        A wide choice of payment methods takes a great part in creating a comfortable atmosphere with players with any background. As we have already mentioned, TrustDice is a very user-friendly platform so, it must not come as a surprise if we tell you that you can choose from a variety of payment options. TrustDice offers both, crypto-based and regular fiat money options to its users so, making deposits and withdrawals will not be a problem for anyone. The processing time for most of the payment methods that are offered on the platform is instant. Another good news is that they are completely fee-free. Some of the payment methods that are supported at TrustDice are listed below:
     </p>
 
-    <h5 className='que'>How to deposit with BTC on Bitcasino.io?</h5>
+
     <ul>
         <li>
-            Log in to your personal account;
+            Visa
         </li>
         <li>
-            As soon as you enter your account, click your user icon, and then click Deposit. Note that you do not need to indicate Bitcasino promo code;
-            <div className='d-flex justify-content-center align-items-center'>
-                <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino8.webp' />
-            </div>
+            Mastercard
         </li>
         <li>
-            Copy the one-time deposit address you will see below the currency drop-down list and use it in your wallet;
-            <div className='d-flex justify-content-center align-items-center'>
-                <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino9.webp' />
-            </div>
+            Sepa
         </li>
         <li>
-            Follow the steps to deposit your preferred currency.
+            Apple Pay
+        </li>
+        <li>
+            Bank Transfers
+        </li>
+        <li>
+            BTC
+        </li>
+        <li>
+            ETH
+        </li>
+        <li>
+            USDT
+        </li>
+        <li>
+            EOS
         </li>
     </ul>
+    <h5 className='que'>How to deposit with BTC on TrustDice crypto casino?</h5>
+    <p>
+        In order to make a BTC deposit on the trustDice website, you will need to follow a few simple steps:
+    </p>
+    <ul>
+        <li>
+            Step 1: Hit the Deposit button which can be found at the top right side of the TrustDice main page.
+        </li>
+        <li>
+            Step 2: Select BTC as a currency.
+
+        </li>
+        <li>
+            Step 3: Below the currency, you will see the URL which must be copied and pasted into your wallet or exchange.
+        </li>
+        <li>
+            Step 4: Come back to the TrustDice website and complete the transaction.
+        </li>
+    </ul>
+    <p>
+        These steps are exactly the same when you want to make a deposit with other cryptocurrencies. The only difference is that you have to select another crypto as a currency.
+    </p>
+    <div className='d-flex justify-content-center align-items-center'>
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice4.webp' />
+    </div>
     <h5 className='que'>Other Deposit options</h5>
     <p>
-        Besides cryptocurrencies, there are no other available methods to deposit funds to your personal account. Bitcasino is exclusively a crypto casino that only accepts funds in 6 different cryptocurrencies and fiat money is not accepted.
+        If you are not a crypto owner, TrustDice can still offer several payment methods that can be more suitable for you. Depositing with them requires the exact same steps but logically, you have to select another currency on the first step.
     </p>
-    <h4 className='que'>What Games Can You Play on Bitcasino?</h4>
+    <h4 className='que'>What Games Can You Play At TrustDice?</h4>
     <p>
-        A perfect Bitcoin casino should offer customers a wide option of different games. Currently, there are more than 2700 games available on Bitcasino. It should be noted that there are 5 different games that you can play on the site:
+        TrustDice Bitcoin casino comes with an amazing collection of casino games that will not disappoint anyone. The library includes video slots and table games as well as live casino games. Players can be sure that they will have a great experience while playing at TrustDice since the online casino offers very high-quality games to its users: First of all, each and every casino game that can be found on the TrustDice website offer fair gameplay to any player – Rules give equal chances to anyone and RTP numbers are reasonable. Besides that, every game has creative content that is a very important part of creating an entertaining experience. Moreover, every casino game that is presented on the TrustDice has flawless visuals with cheerful colors and high-quality graphics so, you can be sure that every game is visually pleasing as well.
     </p>
-    <ul>
-        <li>
-            Slots
-        </li>
-        <li>
-            Live Games
-        </li>
-        <li>
-            Poker
-        </li>
-        <li>
-            Roulette
-        </li>
-        <li>
-            Baccarat
-        </li>
-    </ul>
+    <div className='d-flex justify-content-center align-items-center'>
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice5.webp' />
+    </div>
+    <p>
+        TrustDice online casino gets its games from leading software development companies like Pragmatic Play, Habanero, Evolution Gaming, BGaming, Betsoft, Gameart, Spinomenal, Booming Games, Belatra, Platipus, Endorphina, Nolimt City, Wazdan, Play’n GO, Evoplay Entertainment, Gamomat, Push Gaming, Relax Gaming, Mascot, Playtech, Thunderkick, Quickspin, EGT, and many other well-known game providers. This fact once more highlights the quality and trustworthiness of casino games that are offered at TrustDice.
+    </p>
+    <p>
+        Another huge perk of the TrustDice website is that it is very easily navigatable. The online casino offers separate sections which divide games according to their types and features. Besides that, the platform gives players an opportunity to look for casino games not only according to their categories and titles but also according to the software development company that they have been released by.
+    </p>
     <h5 className='que'>Slots</h5>
-    <p>
-        Slots are one of the most popular options for players around the world. Bitcasino provides more than 2000 games with different themes, characters, and musical backgrounds. Different slots on Bitcasino have different gameplays and they are based on games, historical characters, movies, etc. At the same time, Bitcasino also provides players with the opportunity to play for free, before moving to real funds. It will also help you to understand game details and various concepts.
-    </p>
-    <p>
-        On Bitcasino you will meet casino game providers such as Pragmatic Play, NetEnt, Yggdrasil, BetSoft, all of which have already established themselves as one of the top operators.
-    </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino4.webp' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice6.webp' />
     </div>
-    <h5 className='que'>Live Games</h5>
     <p>
-        With the development of online casino games, the concept of Live Gaming has massively gained a foothold in the iGaming industry. Live casino games allow you to make the most out of the games and feel the real casino experience. The action never stops, and you are fully engaged in the gameplay.
+        TrustDice comes with an incredibly diverse selection of video slots. Players can enjoy all types of games including classic retro-themed ones as well as new, creative titles. The selection covers all the different themes like Aztec culture, Greek and Egyptian mythology, secrets of Ancient civilizations, the animal world, magical creatures, food, magic, Scandinavian epos, literature, and so on. Slots games offer not only engaging content and attractive visuals but also many special features that make gameplay even more entertaining – for instance, wild cards, scatter symbols, bonus rounds, and TrustDice free spins. We can promise that you will never get bored playing slot games that are presented at the online casino.
     </p>
-    <p>
-        There are more than 100 games available in the Bitcasino live games section. As soon as you get the Bitcasino bonus you can use them for live games as well. You can play baccarat, blackjack, and roulette. They also have different variations which you can see in the Live Games section.
-    </p>
-    <div className='d-flex justify-content-center align-items-center'>
-        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino5.webp' />
-    </div>
 
-    <h5 className='que'>Baccarat</h5>
-    <p>
-        Baccarat is another very popular game which you will see in online casinos. There are more than 60 options for the game and each of them is unique. In addition, the possibility of live baccarat is also present which only makes the gaming experience more enjoyable.
-    </p>
-    <p>
-        There is an option of playing baccarat free, without risking your funds. Like in slots, the demo version is present, to help a player understand the main concepts of the game, test various strategies, and what’s more – get used to the gameplay. This is a unique feature that is designed to assist newcomers.
-    </p>
+    <h5 className='que'>Table Games</h5>
     <div className='d-flex justify-content-center align-items-center'>
-        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino7.webp' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice7.webp' />
     </div>
-    <h5 className='que'>Roulette</h5>
     <p>
-        Roulette is by far one of the most popular casino games among players and that’s why playing this game live Bitcasino crypto casino makes it more challenging and exciting to those who know this game.
+        If you want to play casino games that require strategic planning and a sense of knowing when to risk, then you will definitely be pleased by the table games section of TrustDice. Since the choice is very wide, it must not come as a surprise that the TrustDice website offers not only classical card and table games like Blackjack, Roulette, Poker, and Baccarat but also some more creative games like Plinko, Heads and Tails, Rocket Dice, Minesweeper, Just A Bingo, 88 Bingo 88, Roll The Dice, Easter Pick, and so on. All these games offer different experiences but they have something in common – all of them promise players a lot of entertainment.
     </p>
-    <p>
-        Live roulette allows you to experience the atmosphere of a real casino. The only difference from the usual roulette – the one you will play without live dealers – is that you will get the most out of the game.
-    </p>
+
+
+    <h5 className='que'>Live Casino Games
+    </h5>
     <div className='d-flex justify-content-center align-items-center'>
-        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino6.webp' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice8.webp' />
     </div>
-    <h4 className='que'>Bitcasino.io Bonus – How Many Types Can You Get?</h4>
     <p>
-        Bonuses on any online casino are essential, for attracting new customers. This is one of the most notable operators in terms of bonuses.  Bitcasino offers several VIP bonuses, as well as, loyalty rewards but the first deposit bonus is the most used one. Immediately you will discover the main advantages of this casino.
+        Trustdice Bitcoin games include not only video slots and table games but live casino games too. Gamblers who are trying to catch a vibe of playing in the actual land-based casino will be thrilled when they visit the live casino section of Trustdice. First of all, we have to mention that all live sessions that are presented at TrustDice are provided by leading companies like Evolution Gaming, Spinomenal, Ezugi, Pragmatic Play Live, Absolute Live Gaming, Playtech, and Quickfire. This fact gives players a guarantee that they will get the ultimate experience since each and every live session comes in high-quality broadcast and is hosted by a professional dealer.
     </p>
     <p>
-        As soon as you make the first deposit you can get 100% of your deposited funds up to 1 BTC. However, there are wagering requirements that are equal to x35. You can withdraw the money if you manage to win it, but you should meet the wagering requirements. Unfortunately, Bitcasino no deposit bonus is not available at the present moment.
+        In the Live Casino section of the TrustDice website, players will find live versions of the classical card and table games like Roulette, Baccarat, Blackjack, and Poker alongside the brand new game shows like Deal or No Deal, Crazy Time, Monopoly, Dream Catcher, Mega Ball, and so on.
     </p>
-    <h5 className='que'>1st Deposit</h5>
+
+    <h4 className='que'>TrustDice Bonus – How Many Types Can You Get?</h4>
     <p>
-        There is only one offer regarding the deposit bonus at the time of writing the review – a welcome bonus of 100% on the first deposit. The maximum amount is 1,000 mBTC. The minimum replenishment should be 1 mBTC. It is available for all gaming halls and board games in the list of this casino.
+        Bonuses are an integral part of every high-class online casino website since they play a leading role in impressing users. TrustDice comes with many generous bonuses that make playing at the online casino even more attractive. Players who choose to gamble at Trustdice can take advantage of juicy deposit bonuses as well as TrustDice no deposit bonuses. The platform offers initiatives of 10 different types and 9 of them are applicable for the casino part of the website.
     </p>
+
+    <h5 className='que'>No Deposit Bonuses</h5>
     <p>
-        We should note that you need to activate the bonus before a deposit is made. If you do not do this, you will get additional credits only if the operator sees fit to accrue them. In order to activate the bonus, you should log in to the account, go to the Bonus tab, click on Get/Activate.
-    </p>
-    <p>
-        To win back, you need to wager the bonus amount 35 times, which is given 30 days. On Bitcasino Bitcoin casino betting on slots in 100% of the amount goes to the account of winning. All other rates give 0%. Evolution Gaming games (live casino) are not available at an active bonus. Maximum bets up to the completion of the wager are 6 mBTC.
-    </p>
-    <p>
-        Please note that more than 50 slot machines do not participate in winning back bonus funds. A full list of these slots can be found in the Terms of Receiving Bonuses document.
-    </p>
-    <h5 className='que'>Other</h5>
-    <p>
-        Besides the first deposit bonus, there are also other bonuses available on Bitcasino. One of the most notable ones is an offer for VIP customers. You will receive this bonus system as soon as you join the VIP gaming club. To do this, you need to play actively and if you reach a high level with you will contact the manager of the casino who will offer you numerous Bitcasino bonuses: increase bonuses up to 50%, reduce the terms of the withdrawal, personal conditions for slots, as well as other gifts, promotions and prizes in the casino Bitcoin without investments.
+        Trustdice online casino comes with several no deposit bonus offers which are the following: Free Crypto Faucet, Task Bonus, Login Bonus, Weekly Contests, Play to Earn, Staking Profits, Custom Bonus, and Loyalty Bonus. Free Crypto Faucet offers users an opportunity to claim free crypto every six-hour. When you play more and get more Satoshi points, you will be able to claim crypto even quicker since the members of the Satoshi club can get free crypto every hour.
     </p>
     <p>
-        There is another interesting bonus which is called the Loyalty Bonus. With it you get cashback and free spins on your favorite games. The more you wager the better the benefits. You can achieve 7 different levels from Beginner to Hero. Milestone rewards also increase alongside leveling up.
+        Task Bonus offers players generous prizes if they complete a simple task which is given by the Trustdice administration and obviously is connected to playing. Login Bonus provides a simple gift each time you log into your TrustDice account. Weekly Contests give users an opportunity to win up to $3000 and 0.2 BTC. Play to Earn bonus offers TXT token on every bet you make on the platform. Those tokens can later be exchanged for real money. Staking Profits include crypto rewards for  TXT bets. Custom Bonus provides personalized surprises based on the games that you like to play. Finally, Loyalty Bonus offers free cryptos, extra spins, and up to 20% cash back each time you level up!
     </p>
+
+    <h5 className='que'>Deposit Bonus
+    </h5>
     <p>
-        As for the bonus for the second deposit, which is widely available on other casinos, Bitcasino temporarily does not support this option. However, promotions change all the time so new ones are added all the time.
+        Trustdice is just as generous with its deposit bonus as it was with no deposit bonuses. New players who are making their first deposit on the platform can take advantage of a 100% match and it is not everything. The online casino offers bonuses on the second and the third deposits as well. In total, users can get up to 3 BTC plus 25 free spins which is an amazing offer!
     </p>
+
     <h4 className="que">
-        Register on Bitcasino.io – Step by Step Guide
+        Register on TrustDice casino – Step by Step Guide (With Pictures)
     </h4>
     <p>
-        For many customers, the initial registration process becomes very complicated. Some casinos have very vague instructions on how to create your account but on Bitcasino this process is very simple and we will explain the Bitcasino registration steps thoroughly.
+        In this part of our TrustDice review, we will go through the registration process which is not complicated at all but we will still give a step-by-step guide in order to avoid any complications. First of all, we have to warn you that just like any legit online casino, TrustDice also comes with a row of terms and conditions. Get to know the platform’s politics and make sure that you are eligible to open an account at TrustDice.
+    </p>
+    <p>
+        For instance, if you are not 18 or more years old, you will not be able to gamble at TrustDice online casino since it is against the terms and conditions of the platform. Making deposits and withdrawals will also be a problem if you are a resident of a country where gambling is illegal. Once you make sure that you are a suitable candidate for registering at Trustdice as well as all terms and conditions are acceptable for you, you can get started!
+    </p>
+    <p>
+        Step 1: Click the “Sign Up” button which is located at the top right side of the TrustDice main page.
     </p>
     <div className='d-flex justify-content-center align-items-center'>
-        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/bitCasinoIo/bitcasino10.webp' />
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice9.webp' />
     </div>
-    <h5 className="que">
-        Step 1 – Creating an account
-    </h5>
     <p>
-        First, open the casino’s website and click on the Sign-Up button, which is in the top right corner of the screen. Fill out the form, by providing your username, email, date of birth, go through the Captcha and click the button Create Account.
-
-
+        Step 2: On the TrustDice registration form, you will see some empty spaces that should be filled in. First of all, you will need to come up with a creative username and password. After that, you have to enter your email address. Finally, you will need to admit that you agree to the terms and conditions of the online casino and then, you are good to go!
     </p>
-    <h5 className="que">
-        Step 2 – Personal Office
-    </h5>
-    <p>
-        After that, you will get to the personal office of the casino, where you can try all the options of this casino. Within a couple of minutes, an email will be sent to the e-mail address, which you need to go to verify the registration. On the left side of the site are several sections with categories of games.
+    <div className='d-flex justify-content-center align-items-center'>
+        <img alt='best gamble casinos' className='my-4 img-fluid' src='/images/casinos/trustDice/trustdice10.webp' />
+    </div>
 
-
-    </p>
-    <h5 className="que">
-        Step 3 – Finalizing the Registration
-    </h5>
-    <p>
-        After you have finished the registration click on one of the sections and select the game you like. As has been mentioned above, Bitcasino no deposit bonus is not available, after you register. It’s important to know that in order to start playing slots, you need to have the proper software installed on your computer. If it is already installed, you can move on to the game.
-
-
-    </p>
     <h4 className="que">
-        Is Bitcasino For You?
+        Is TrustDice For You?
     </h4>
     <p>
-        Finally comes the main question which is interesting for every customer reading this review – is Bitcasino for you? This casino is considered to enjoy high popularity among players and it was one of the first licensed Bitcoin casinos in the iGaming industry. Bitcasino is safe and secure, with a lot of games available for playing. At the same time, there are no problems regarding depositing and withdrawing your funds, which makes the operator legit.
+        We can hardly imagine a gambler that can not find what he/she needs at TrustDice. The online casino comes with an incredibly wide library of casino games that are of the highest quality. Gamblers who are looking for a combination of easterly pleasing visuals, interesting themes, and easy rules can enjoy the selection of video slots on the platforms. Others may be looking for games that require not only luck but some strategic planning as well and they can choose a suitable game from the table games section. The rest of the gamblers are probably looking for casino games that will satisfy their cravings of playing in an actual land-based casino and the live casino section of the TrustDice website will serve them perfectly.
 
 
     </p>
     <p>
-        We should also note the customer support, which is constantly determined to help users. Besides live chat, customers can contact the casino through email, which is present on the website.
+        Besides that, TrustDice offers a safe gambling environment where you can stop worrying about any extra risks and this must be a dream for any gambler. Moreover, TrustDice can host both – crypto users and players who prefer traditional fiat money options, since the platform comes with a wide variety of payment methods. It is also important to mention that all transactions that are made through the platform are very fast and even more secure. Additionally, TrustDice comes with numerous bonuses and promotions that make gambling even more exciting. As you can see, at TrustDice crypto casino everyone can find what they are looking for.
     </p>
-    <p>
-        Overall, Bitcasino is a perfect website for those who wish to try their luck in Bitcoin gaming. The environment and diversity in casino games provide the opportunity to make your gaming experience unforgettable.
-    </p>
+
 </div>
